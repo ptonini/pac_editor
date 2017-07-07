@@ -116,104 +116,13 @@ defaults:
   when no more tabs: 0
   word characters: \.:_\/-A-Za-z0-9
 environments:
-  0472a4fb-e29f-4881-84e6-a6115f7e05d4:
-    KPX title regexp: ''
-    _is_group: 0
-    _protected: 0
-    auth fallback: 1
-    auth type: userpass
-    autoreconnect: ''
-    autossh: ''
-    children: {}
-    cluster: []
-    description: ''
-    embed: 0
-    expect: []
-    favourite: 0
-    infer from KPX where: 3
-    infer user pass from KPX: ''
-    ip: 10.10.1.75
-    local after: []
-    local before: []
-    local connected: []
-    mac: ''
-    macros: []
-    method: SSH
-    name: zn5-api1
-    options: ' -X'
-    parent: 9430ef9e-1b40-4d77-8690-67b7accc1e90
-    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase user: ubuntu
-    port: 22
-    prepend command: ''
-    proxy ip: ''
-    proxy pass: ''
-    proxy port: 8080
-    proxy user: ''
-    public key: ''
-    quote command: ''
-    remove control chars: ''
-    save session logs: ''
-    screenshots: []
-    search pass on KPX: 0
-    send slow: 0
-    send string active: ''
-    send string every: 60
-    send string intro: 1
-    send string txt: ''
-    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
-    session logs amount: 10
-    session logs folder: /home/ptonini/.config/pac/session_logs
-    startup launch: ''
-    startup script: ''
-    startup script name: sample1.pl
-    terminal options:
-      audible bell: ''
-      back color: '#000000000000'
-      bold color: '#cc62cc62cc62'
-      bold color like text: 1
-      command prompt: '[#%\$>]|\:\/\s*$'
-      cursor shape: block
-      disable ALT key bindings: ''
-      disable CTRL key bindings: ''
-      disable SHIFT key bindings: ''
-      open in tab: 1
-      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
-      tab back color: '#000000000000'
-      terminal backspace: auto
-      terminal character encoding: UTF-8
-      terminal emulation: xterm
-      terminal font: Monospace 9
-      terminal scrollback lines: 5000
-      terminal select words: \.:_\/-A-Za-z0-9
-      terminal transparency: 0
-      terminal window hsize: 800
-      terminal window vsize: 600
-      text color: '#cc62cc62cc62'
-      timeout command: 40
-      timeout connect: 40
-      use personal settings: ''
-      use tab back color: ''
-      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
-      visible bell: ''
-    title: zn5-api1
-    use prepend command: ''
-    use proxy: 0
-    use sudo: ''
-    user: hosting
-    variables: []
   04a32142-fd55-4220-8d43-f43966a1ee1c:
     _is_group: 1
     _protected: 0
     children:
       62d935f8-970c-4c6d-b44c-796e585c4976: 1
-      9430ef9e-1b40-4d77-8690-67b7accc1e90: 1
-      d2ebbd2d-0956-4825-8e84-b780b4bd89f1: 1
-      d6db3705-3345-41bb-b519-1d0e8cd3e6b6: 1
-      f1f6cd4e-1e12-451c-871c-fa746b03bfc4: 1
     description: Connection group 'SkyOne'
-    name: 'AWS - SkyOne'
+    name: SkyOne
     parent: __PAC__ROOT__
     screenshots: []
   051a3f61-415e-4dc0-a7e5-7b8f9cdf47e0:
@@ -227,180 +136,6 @@ environments:
     name: PlusServer
     parent: __PAC__ROOT__
     screenshots: []
-  0c9dc660-ffb8-4f02-824c-7434e2abb478:
-    KPX title regexp: ''
-    _is_group: 0
-    _protected: 0
-    auth fallback: 1
-    auth type: userpass
-    autoreconnect: ''
-    autossh: ''
-    children: {}
-    cluster: []
-    description: ''
-    embed: 0
-    expect: []
-    favourite: 0
-    infer from KPX where: 3
-    infer user pass from KPX: ''
-    ip: 10.10.2.21
-    local after: []
-    local before: []
-    local connected: []
-    mac: ''
-    macros: []
-    method: SSH
-    name: zn4-rs1-d1
-    options: ' -X'
-    parent: f1f6cd4e-1e12-451c-871c-fa746b03bfc4
-    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase user: ubuntu
-    port: 22
-    prepend command: ''
-    proxy ip: ''
-    proxy pass: ''
-    proxy port: 8080
-    proxy user: ''
-    public key: ''
-    quote command: ''
-    remove control chars: ''
-    save session logs: ''
-    screenshots: []
-    search pass on KPX: 0
-    send slow: 0
-    send string active: ''
-    send string every: 60
-    send string intro: 1
-    send string txt: ''
-    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
-    session logs amount: 10
-    session logs folder: /home/ptonini/.config/pac/session_logs
-    startup launch: ''
-    startup script: ''
-    startup script name: sample1.pl
-    terminal options:
-      audible bell: ''
-      back color: '#000000000000'
-      bold color: '#cc62cc62cc62'
-      bold color like text: 1
-      command prompt: '[#%\$>]|\:\/\s*$'
-      cursor shape: block
-      disable ALT key bindings: ''
-      disable CTRL key bindings: ''
-      disable SHIFT key bindings: ''
-      open in tab: 1
-      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
-      tab back color: '#000000000000'
-      terminal backspace: auto
-      terminal character encoding: UTF-8
-      terminal emulation: xterm
-      terminal font: Monospace 9
-      terminal scrollback lines: 5000
-      terminal select words: \.:_\/-A-Za-z0-9
-      terminal transparency: 0
-      terminal window hsize: 800
-      terminal window vsize: 600
-      text color: '#cc62cc62cc62'
-      timeout command: 40
-      timeout connect: 40
-      use personal settings: ''
-      use tab back color: ''
-      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
-      visible bell: ''
-    title: zn4-rs1-d1
-    use prepend command: ''
-    use proxy: 0
-    use sudo: ''
-    user: hosting
-    variables: []
-  0eb8aee8-c25a-4112-92c2-8d864fb12487:
-    KPX title regexp: ''
-    _is_group: 0
-    _protected: 0
-    auth fallback: 1
-    auth type: userpass
-    autoreconnect: ''
-    autossh: ''
-    children: {}
-    cluster: []
-    description: ''
-    embed: 0
-    expect: []
-    favourite: 0
-    infer from KPX where: 3
-    infer user pass from KPX: ''
-    ip: 10.10.1.48
-    local after: []
-    local before: []
-    local connected: []
-    mac: ''
-    macros: []
-    method: SSH
-    name: zn5-gwa4
-    options: ' -X'
-    parent: 9430ef9e-1b40-4d77-8690-67b7accc1e90
-    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase user: ubuntu
-    port: 22
-    prepend command: ''
-    proxy ip: ''
-    proxy pass: ''
-    proxy port: 8080
-    proxy user: ''
-    public key: ''
-    quote command: ''
-    remove control chars: ''
-    save session logs: ''
-    screenshots: []
-    search pass on KPX: 0
-    send slow: 0
-    send string active: ''
-    send string every: 60
-    send string intro: 1
-    send string txt: ''
-    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
-    session logs amount: 10
-    session logs folder: /home/ptonini/.config/pac/session_logs
-    startup launch: ''
-    startup script: ''
-    startup script name: sample1.pl
-    terminal options:
-      audible bell: ''
-      back color: '#000000000000'
-      bold color: '#cc62cc62cc62'
-      bold color like text: 1
-      command prompt: '[#%\$>]|\:\/\s*$'
-      cursor shape: block
-      disable ALT key bindings: ''
-      disable CTRL key bindings: ''
-      disable SHIFT key bindings: ''
-      open in tab: 1
-      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
-      tab back color: '#000000000000'
-      terminal backspace: auto
-      terminal character encoding: UTF-8
-      terminal emulation: xterm
-      terminal font: Monospace 9
-      terminal scrollback lines: 5000
-      terminal select words: \.:_\/-A-Za-z0-9
-      terminal transparency: 0
-      terminal window hsize: 800
-      terminal window vsize: 600
-      text color: '#cc62cc62cc62'
-      timeout command: 40
-      timeout connect: 40
-      use personal settings: ''
-      use tab back color: ''
-      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
-      visible bell: ''
-    title: zn5-gwa4
-    use prepend command: ''
-    use proxy: 0
-    use sudo: ''
-    user: hosting
-    variables: []
   0f65d0f7-96e5-4a23-a3ad-bd82f51a8948:
     KPX title regexp: .*vm-mirror_brt_sec.*
     _is_group: 0
@@ -488,364 +223,15 @@ environments:
     use sudo: ''
     user: pedro.tonini
     variables: []
-  10b6ae50-814a-4378-ac81-1e7b4179adcc:
-    KPX title regexp: ''
-    _is_group: 0
-    _protected: 0
-    auth fallback: 1
-    auth type: userpass
-    autoreconnect: ''
-    autossh: ''
-    children: {}
-    cluster: []
-    description: ''
-    embed: 0
-    expect: []
-    favourite: 0
-    infer from KPX where: 3
-    infer user pass from KPX: ''
-    ip: 10.10.1.58
-    local after: []
-    local before: []
-    local connected: []
-    mac: ''
-    macros: []
-    method: SSH
-    name: zn5-gwa-r
-    options: ' -X'
-    parent: 9430ef9e-1b40-4d77-8690-67b7accc1e90
-    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase user: ubuntu
-    port: 22
-    prepend command: ''
-    proxy ip: ''
-    proxy pass: ''
-    proxy port: 8080
-    proxy user: ''
-    public key: ''
-    quote command: ''
-    remove control chars: ''
-    save session logs: ''
-    screenshots: []
-    search pass on KPX: 0
-    send slow: 0
-    send string active: ''
-    send string every: 60
-    send string intro: 1
-    send string txt: ''
-    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
-    session logs amount: 10
-    session logs folder: /home/ptonini/.config/pac/session_logs
-    startup launch: ''
-    startup script: ''
-    startup script name: sample1.pl
-    terminal options:
-      audible bell: ''
-      back color: '#000000000000'
-      bold color: '#cc62cc62cc62'
-      bold color like text: 1
-      command prompt: '[#%\$>]|\:\/\s*$'
-      cursor shape: block
-      disable ALT key bindings: ''
-      disable CTRL key bindings: ''
-      disable SHIFT key bindings: ''
-      open in tab: 1
-      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
-      tab back color: '#000000000000'
-      terminal backspace: auto
-      terminal character encoding: UTF-8
-      terminal emulation: xterm
-      terminal font: Monospace 9
-      terminal scrollback lines: 5000
-      terminal select words: \.:_\/-A-Za-z0-9
-      terminal transparency: 0
-      terminal window hsize: 800
-      terminal window vsize: 600
-      text color: '#cc62cc62cc62'
-      timeout command: 40
-      timeout connect: 40
-      use personal settings: ''
-      use tab back color: ''
-      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
-      visible bell: ''
-    title: zn5-gwa-r
-    use prepend command: ''
-    use proxy: 0
-    use sudo: ''
-    user: hosting
-    variables: []
-  130eb48c-c6e2-4389-8afd-03b272b42e80:
-    KPX title regexp: ''
-    _is_group: 0
-    _protected: 0
-    auth fallback: 1
-    auth type: userpass
-    autoreconnect: ''
-    autossh: ''
-    children: {}
-    cluster: []
-    description: ''
-    embed: 0
-    expect: []
-    favourite: 0
-    infer from KPX where: 3
-    infer user pass from KPX: ''
-    ip: 10.10.2.65
-    local after: []
-    local before: []
-    local connected: []
-    mac: ''
-    macros: []
-    method: SSH
-    name: zn4-worker-rep
-    options: ' -X'
-    parent: f1f6cd4e-1e12-451c-871c-fa746b03bfc4
-    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase user: ubuntu
-    port: 22
-    prepend command: ''
-    proxy ip: ''
-    proxy pass: ''
-    proxy port: 8080
-    proxy user: ''
-    public key: ''
-    quote command: ''
-    remove control chars: ''
-    save session logs: ''
-    screenshots: []
-    search pass on KPX: 0
-    send slow: 0
-    send string active: ''
-    send string every: 60
-    send string intro: 1
-    send string txt: ''
-    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
-    session logs amount: 10
-    session logs folder: /home/ptonini/.config/pac/session_logs
-    startup launch: ''
-    startup script: ''
-    startup script name: sample1.pl
-    terminal options:
-      audible bell: ''
-      back color: '#000000000000'
-      bold color: '#cc62cc62cc62'
-      bold color like text: 1
-      command prompt: '[#%\$>]|\:\/\s*$'
-      cursor shape: block
-      disable ALT key bindings: ''
-      disable CTRL key bindings: ''
-      disable SHIFT key bindings: ''
-      open in tab: 1
-      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
-      tab back color: '#000000000000'
-      terminal backspace: auto
-      terminal character encoding: UTF-8
-      terminal emulation: xterm
-      terminal font: Monospace 9
-      terminal scrollback lines: 5000
-      terminal select words: \.:_\/-A-Za-z0-9
-      terminal transparency: 0
-      terminal window hsize: 800
-      terminal window vsize: 600
-      text color: '#cc62cc62cc62'
-      timeout command: 40
-      timeout connect: 40
-      use personal settings: ''
-      use tab back color: ''
-      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
-      visible bell: ''
-    title: zn4-worker-rep
-    use prepend command: ''
-    use proxy: 0
-    use sudo: ''
-    user: hosting
-    variables: []
-  1368d799-ff41-4cd1-bcc2-0158552500d6:
-    KPX title regexp: ''
-    _is_group: 0
-    _protected: 0
-    auth fallback: 1
-    auth type: userpass
-    autoreconnect: ''
-    autossh: ''
-    children: {}
-    cluster: []
-    description: ''
-    embed: 0
-    expect: []
-    favourite: 0
-    infer from KPX where: 3
-    infer user pass from KPX: ''
-    ip: 10.10.1.34
-    local after: []
-    local before: []
-    local connected: []
-    mac: ''
-    macros: []
-    method: SSH
-    name: zn5-worker-a1
-    options: ' -X'
-    parent: 9430ef9e-1b40-4d77-8690-67b7accc1e90
-    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase user: ubuntu
-    port: 22
-    prepend command: ''
-    proxy ip: ''
-    proxy pass: ''
-    proxy port: 8080
-    proxy user: ''
-    public key: ''
-    quote command: ''
-    remove control chars: ''
-    save session logs: ''
-    screenshots: []
-    search pass on KPX: 0
-    send slow: 0
-    send string active: ''
-    send string every: 60
-    send string intro: 1
-    send string txt: ''
-    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
-    session logs amount: 10
-    session logs folder: /home/ptonini/.config/pac/session_logs
-    startup launch: ''
-    startup script: ''
-    startup script name: sample1.pl
-    terminal options:
-      audible bell: ''
-      back color: '#000000000000'
-      bold color: '#cc62cc62cc62'
-      bold color like text: 1
-      command prompt: '[#%\$>]|\:\/\s*$'
-      cursor shape: block
-      disable ALT key bindings: ''
-      disable CTRL key bindings: ''
-      disable SHIFT key bindings: ''
-      open in tab: 1
-      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
-      tab back color: '#000000000000'
-      terminal backspace: auto
-      terminal character encoding: UTF-8
-      terminal emulation: xterm
-      terminal font: Monospace 9
-      terminal scrollback lines: 5000
-      terminal select words: \.:_\/-A-Za-z0-9
-      terminal transparency: 0
-      terminal window hsize: 800
-      terminal window vsize: 600
-      text color: '#cc62cc62cc62'
-      timeout command: 40
-      timeout connect: 40
-      use personal settings: ''
-      use tab back color: ''
-      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
-      visible bell: ''
-    title: zn5-worker-a1
-    use prepend command: ''
-    use proxy: 0
-    use sudo: ''
-    user: hosting
-    variables: []
-  13d34e68-2420-498e-b276-1e7e6c48b676:
+  125f03d9-e4e0-4ab7-9128-3d5de0b144ff:
     _is_group: 1
     _protected: 0
     children:
-      6e2fcd04-8697-4280-82e3-d1c9eea7febb: 1
-      7274f579-5889-4d1d-b4d6-f36cc8a4bd3d: 1
-    description: Connection group 'Sindionibus'
-    name: Sindionibus
-    parent: __PAC__ROOT__
+      d8918c73-3501-4d2f-a079-d0e3067ae706: 1
+    description: Connection group 'Zona 5'
+    name: Zona 5
+    parent: 3062954a-bd88-4e20-b561-5f2e0fa3cdb5
     screenshots: []
-  145fc8d5-12fd-4e7c-ac08-d8663ce11e4c:
-    KPX title regexp: ''
-    _is_group: 0
-    _protected: 0
-    auth fallback: 1
-    auth type: userpass
-    autoreconnect: ''
-    autossh: ''
-    children: {}
-    cluster: []
-    description: ''
-    embed: 0
-    expect: []
-    favourite: 0
-    infer from KPX where: 3
-    infer user pass from KPX: ''
-    ip: 10.10.1.18
-    local after: []
-    local before: []
-    local connected: []
-    mac: ''
-    macros: []
-    method: SSH
-    name: zn5-rs0-d1
-    options: ' -X'
-    parent: 9430ef9e-1b40-4d77-8690-67b7accc1e90
-    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase user: ubuntu
-    port: 22
-    prepend command: ''
-    proxy ip: ''
-    proxy pass: ''
-    proxy port: 8080
-    proxy user: ''
-    public key: ''
-    quote command: ''
-    remove control chars: ''
-    save session logs: ''
-    screenshots: []
-    search pass on KPX: 0
-    send slow: 0
-    send string active: ''
-    send string every: 60
-    send string intro: 1
-    send string txt: ''
-    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
-    session logs amount: 10
-    session logs folder: /home/ptonini/.config/pac/session_logs
-    startup launch: ''
-    startup script: ''
-    startup script name: sample1.pl
-    terminal options:
-      audible bell: ''
-      back color: '#000000000000'
-      bold color: '#cc62cc62cc62'
-      bold color like text: 1
-      command prompt: '[#%\$>]|\:\/\s*$'
-      cursor shape: block
-      disable ALT key bindings: ''
-      disable CTRL key bindings: ''
-      disable SHIFT key bindings: ''
-      open in tab: 1
-      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
-      tab back color: '#000000000000'
-      terminal backspace: auto
-      terminal character encoding: UTF-8
-      terminal emulation: xterm
-      terminal font: Monospace 9
-      terminal scrollback lines: 5000
-      terminal select words: \.:_\/-A-Za-z0-9
-      terminal transparency: 0
-      terminal window hsize: 800
-      terminal window vsize: 600
-      text color: '#cc62cc62cc62'
-      timeout command: 40
-      timeout connect: 40
-      use personal settings: ''
-      use tab back color: ''
-      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
-      visible bell: ''
-    title: zn5-rs0-d1
-    use prepend command: ''
-    use proxy: 0
-    use sudo: ''
-    user: hosting
-    variables: []
   17993a2d-682c-4fc2-a3a4-19c65db3f904:
     _is_group: 1
     _protected: 0
@@ -856,8 +242,8 @@ environments:
     name: InfraNaNuvem
     parent: __PAC__ROOT__
     screenshots: []
-  18c6cac0-6f14-4953-88c8-df113e227eeb:
-    KPX title regexp: ''
+  17a5d31a-57a8-4379-9503-5db9b00f310b:
+    KPX title regexp: .*temp1.*
     _is_group: 0
     _protected: 0
     auth fallback: 1
@@ -866,32 +252,32 @@ environments:
     autossh: ''
     children: {}
     cluster: []
-    description: ''
+    description: Connection with 'temp2'
     embed: 0
     expect: []
     favourite: 0
     infer from KPX where: 3
     infer user pass from KPX: ''
-    ip: 10.10.2.12
+    ip: bbb
     local after: []
     local before: []
     local connected: []
     mac: ''
     macros: []
     method: SSH
-    name: zn4-worker-ra
+    name: temp4
     options: ' -X'
-    parent: f1f6cd4e-1e12-451c-871c-fa746b03bfc4
+    parent: 18f19917-3496-4657-83d7-b0c73ec17ccb
     pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
     passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase user: ubuntu
+    passphrase user: ''
     port: 22
     prepend command: ''
     proxy ip: ''
     proxy pass: ''
     proxy port: 8080
     proxy user: ''
-    public key: ''
+    public key: /usr/share/pac
     quote command: ''
     remove control chars: ''
     save session logs: ''
@@ -937,14 +323,36 @@ environments:
       use tab back color: ''
       username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
       visible bell: ''
-    title: zn4-worker-ra
+    title: temp4
     use prepend command: ''
     use proxy: 0
     use sudo: ''
-    user: hosting
+    user: bbb
     variables: []
-  1b5cb76e-f5ff-4709-ad87-5515479fbc6d:
-    KPX title regexp: ''
+  18f19917-3496-4657-83d7-b0c73ec17ccb:
+    _is_group: 1
+    _protected: 0
+    children:
+      17a5d31a-57a8-4379-9503-5db9b00f310b: 1
+    description: Connection group 'Zona H'
+    name: Zona D
+    parent: 3062954a-bd88-4e20-b561-5f2e0fa3cdb5
+    screenshots: []
+  3062954a-bd88-4e20-b561-5f2e0fa3cdb5:
+    _is_group: 1
+    _protected: 0
+    children:
+      125f03d9-e4e0-4ab7-9128-3d5de0b144ff: 1
+      18f19917-3496-4657-83d7-b0c73ec17ccb: 1
+      4c3973b6-e6dd-4783-8f47-a20e2d181713: 1
+      64f7eeae-6cdc-40ee-b569-fd66e160167f: 1
+      f21e906f-62f7-4e55-b88c-6244238716d8: 1
+    description: Connection group 'M2M Frota'
+    name: _M2M Frota
+    parent: __PAC__ROOT__
+    screenshots: []
+  34bd0f3d-3a35-4a68-a6a1-8f450507c1d6:
+    KPX title regexp: .*temp1.*
     _is_group: 0
     _protected: 0
     auth fallback: 1
@@ -953,32 +361,32 @@ environments:
     autossh: ''
     children: {}
     cluster: []
-    description: ''
+    description: Connection with 'temp2'
     embed: 0
     expect: []
     favourite: 0
     infer from KPX where: 3
     infer user pass from KPX: ''
-    ip: 10.10.1.26
+    ip: bbb
     local after: []
     local before: []
     local connected: []
     mac: ''
     macros: []
     method: SSH
-    name: zn5-api0
+    name: temp2
     options: ' -X'
-    parent: 9430ef9e-1b40-4d77-8690-67b7accc1e90
+    parent: 4c3973b6-e6dd-4783-8f47-a20e2d181713
     pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
     passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase user: ubuntu
+    passphrase user: ''
     port: 22
     prepend command: ''
     proxy ip: ''
     proxy pass: ''
     proxy port: 8080
     proxy user: ''
-    public key: ''
+    public key: /usr/share/pac
     quote command: ''
     remove control chars: ''
     save session logs: ''
@@ -1024,707 +432,11 @@ environments:
       use tab back color: ''
       username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
       visible bell: ''
-    title: zn5-api0
+    title: temp2
     use prepend command: ''
     use proxy: 0
     use sudo: ''
-    user: hosting
-    variables: []
-  1ca9687f-853d-40f2-b89e-3b08e0c78177:
-    KPX title regexp: .*adm-bastion.*
-    _is_group: 0
-    _protected: 0
-    auth fallback: 1
-    auth type: publickey
-    autoreconnect: ''
-    autossh: ''
-    children: {}
-    cluster: []
-    description: Connection with 'adm-bastion'
-    embed: 0
-    expect: []
-    favourite: 0
-    infer from KPX where: 3
-    infer user pass from KPX: ''
-    ip: 10.99.0.213
-    local after: []
-    local before: []
-    local connected: []
-    mac: ''
-    macros: []
-    method: SSH
-    name: adm-bastion
-    options: ' -X'
-    parent: 61cd9540-ea02-498e-b8a0-d87cfd98fe7a
-    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase user: ubuntu
-    port: 22
-    prepend command: ''
-    proxy ip: ''
-    proxy pass: ''
-    proxy port: 8080
-    proxy user: ''
-    public key: /home/ptonini/.ssh/m2m_aws.pem
-    quote command: ''
-    remove control chars: ''
-    save session logs: ''
-    screenshots: []
-    search pass on KPX: 0
-    send slow: 0
-    send string active: ''
-    send string every: 60
-    send string intro: 1
-    send string txt: ''
-    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
-    session logs amount: 10
-    session logs folder: /home/ptonini/.config/pac/session_logs
-    startup launch: ''
-    startup script: ''
-    startup script name: sample1.pl
-    terminal options:
-      audible bell: ''
-      back color: '#000000000000'
-      bold color: '#cc62cc62cc62'
-      bold color like text: 1
-      command prompt: '[#%\$>]|\:\/\s*$'
-      cursor shape: block
-      disable ALT key bindings: ''
-      disable CTRL key bindings: ''
-      disable SHIFT key bindings: ''
-      open in tab: 1
-      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
-      tab back color: '#000000000000'
-      terminal backspace: auto
-      terminal character encoding: UTF-8
-      terminal emulation: xterm
-      terminal font: Monospace 9
-      terminal scrollback lines: 5000
-      terminal select words: \.:_\/-A-Za-z0-9
-      terminal transparency: 0
-      terminal window hsize: 800
-      terminal window vsize: 600
-      text color: '#cc62cc62cc62'
-      timeout command: 40
-      timeout connect: 40
-      use personal settings: ''
-      use tab back color: ''
-      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
-      visible bell: ''
-    title: adm-bastion
-    use prepend command: ''
-    use proxy: 0
-    use sudo: ''
-    user: ''
-    variables: []
-  1daafd96-a221-466e-8b1a-94a7f5aa365f:
-    KPX title regexp: ''
-    _is_group: 0
-    _protected: 0
-    auth fallback: 1
-    auth type: userpass
-    autoreconnect: ''
-    autossh: ''
-    children: {}
-    cluster: []
-    description: ''
-    embed: 0
-    expect: []
-    favourite: 0
-    infer from KPX where: 3
-    infer user pass from KPX: ''
-    ip: 10.10.1.52
-    local after: []
-    local before: []
-    local connected: []
-    mac: ''
-    macros: []
-    method: SSH
-    name: zn5-worker-e4
-    options: ' -X'
-    parent: 9430ef9e-1b40-4d77-8690-67b7accc1e90
-    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase user: ubuntu
-    port: 22
-    prepend command: ''
-    proxy ip: ''
-    proxy pass: ''
-    proxy port: 8080
-    proxy user: ''
-    public key: ''
-    quote command: ''
-    remove control chars: ''
-    save session logs: ''
-    screenshots: []
-    search pass on KPX: 0
-    send slow: 0
-    send string active: ''
-    send string every: 60
-    send string intro: 1
-    send string txt: ''
-    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
-    session logs amount: 10
-    session logs folder: /home/ptonini/.config/pac/session_logs
-    startup launch: ''
-    startup script: ''
-    startup script name: sample1.pl
-    terminal options:
-      audible bell: ''
-      back color: '#000000000000'
-      bold color: '#cc62cc62cc62'
-      bold color like text: 1
-      command prompt: '[#%\$>]|\:\/\s*$'
-      cursor shape: block
-      disable ALT key bindings: ''
-      disable CTRL key bindings: ''
-      disable SHIFT key bindings: ''
-      open in tab: 1
-      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
-      tab back color: '#000000000000'
-      terminal backspace: auto
-      terminal character encoding: UTF-8
-      terminal emulation: xterm
-      terminal font: Monospace 9
-      terminal scrollback lines: 5000
-      terminal select words: \.:_\/-A-Za-z0-9
-      terminal transparency: 0
-      terminal window hsize: 800
-      terminal window vsize: 600
-      text color: '#cc62cc62cc62'
-      timeout command: 40
-      timeout connect: 40
-      use personal settings: ''
-      use tab back color: ''
-      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
-      visible bell: ''
-    title: zn5-worker-e4
-    use prepend command: ''
-    use proxy: 0
-    use sudo: ''
-    user: hosting
-    variables: []
-  28bb98c0-4011-4f0b-a494-93a8e337bcff:
-    KPX title regexp: ''
-    _is_group: 0
-    _protected: 0
-    auth fallback: 1
-    auth type: userpass
-    autoreconnect: ''
-    autossh: ''
-    children: {}
-    cluster: []
-    description: ''
-    embed: 0
-    expect: []
-    favourite: 0
-    infer from KPX where: 3
-    infer user pass from KPX: ''
-    ip: 10.10.1.81
-    local after: []
-    local before: []
-    local connected: []
-    mac: ''
-    macros: []
-    method: SSH
-    name: zn5-rabbit-sin
-    options: ' -X -L 8888:10.10.1.11:15672'
-    parent: 9430ef9e-1b40-4d77-8690-67b7accc1e90
-    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase user: ubuntu
-    port: 22
-    prepend command: ''
-    proxy ip: ''
-    proxy pass: ''
-    proxy port: 8080
-    proxy user: ''
-    public key: ''
-    quote command: ''
-    remove control chars: ''
-    save session logs: ''
-    screenshots: []
-    search pass on KPX: 0
-    send slow: 0
-    send string active: ''
-    send string every: 60
-    send string intro: 1
-    send string txt: ''
-    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
-    session logs amount: 10
-    session logs folder: /home/ptonini/.config/pac/session_logs
-    startup launch: ''
-    startup script: ''
-    startup script name: sample1.pl
-    terminal options:
-      audible bell: ''
-      back color: '#000000000000'
-      bold color: '#cc62cc62cc62'
-      bold color like text: 1
-      command prompt: '[#%\$>]|\:\/\s*$'
-      cursor shape: block
-      disable ALT key bindings: ''
-      disable CTRL key bindings: ''
-      disable SHIFT key bindings: ''
-      open in tab: 1
-      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
-      tab back color: '#000000000000'
-      terminal backspace: auto
-      terminal character encoding: UTF-8
-      terminal emulation: xterm
-      terminal font: Monospace 9
-      terminal scrollback lines: 5000
-      terminal select words: \.:_\/-A-Za-z0-9
-      terminal transparency: 0
-      terminal window hsize: 800
-      terminal window vsize: 600
-      text color: '#cc62cc62cc62'
-      timeout command: 40
-      timeout connect: 40
-      use personal settings: ''
-      use tab back color: ''
-      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
-      visible bell: ''
-    title: zn5-rabbit-sin
-    use prepend command: ''
-    use proxy: 0
-    use sudo: ''
-    user: hosting
-    variables: []
-  2902d424-994a-47fe-97ed-8eae6c9e79b2:
-    KPX title regexp: ''
-    _is_group: 0
-    _protected: 0
-    auth fallback: 1
-    auth type: userpass
-    autoreconnect: ''
-    autossh: ''
-    children: {}
-    cluster: []
-    description: ''
-    embed: 0
-    expect: []
-    favourite: 0
-    infer from KPX where: 3
-    infer user pass from KPX: ''
-    ip: 10.10.2.39
-    local after: []
-    local before: []
-    local connected: []
-    mac: ''
-    macros: []
-    method: SSH
-    name: zn4-worker-a1
-    options: ' -X'
-    parent: f1f6cd4e-1e12-451c-871c-fa746b03bfc4
-    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase user: ubuntu
-    port: 22
-    prepend command: ''
-    proxy ip: ''
-    proxy pass: ''
-    proxy port: 8080
-    proxy user: ''
-    public key: ''
-    quote command: ''
-    remove control chars: ''
-    save session logs: ''
-    screenshots: []
-    search pass on KPX: 0
-    send slow: 0
-    send string active: ''
-    send string every: 60
-    send string intro: 1
-    send string txt: ''
-    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
-    session logs amount: 10
-    session logs folder: /home/ptonini/.config/pac/session_logs
-    startup launch: ''
-    startup script: ''
-    startup script name: sample1.pl
-    terminal options:
-      audible bell: ''
-      back color: '#000000000000'
-      bold color: '#cc62cc62cc62'
-      bold color like text: 1
-      command prompt: '[#%\$>]|\:\/\s*$'
-      cursor shape: block
-      disable ALT key bindings: ''
-      disable CTRL key bindings: ''
-      disable SHIFT key bindings: ''
-      open in tab: 1
-      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
-      tab back color: '#000000000000'
-      terminal backspace: auto
-      terminal character encoding: UTF-8
-      terminal emulation: xterm
-      terminal font: Monospace 9
-      terminal scrollback lines: 5000
-      terminal select words: \.:_\/-A-Za-z0-9
-      terminal transparency: 0
-      terminal window hsize: 800
-      terminal window vsize: 600
-      text color: '#cc62cc62cc62'
-      timeout command: 40
-      timeout connect: 40
-      use personal settings: ''
-      use tab back color: ''
-      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
-      visible bell: ''
-    title: zn4-worker-a1
-    use prepend command: ''
-    use proxy: 0
-    use sudo: ''
-    user: hosting
-    variables: []
-  29ad8b43-b937-4ac4-9e86-0771b9c6c91e:
-    KPX title regexp: ''
-    _is_group: 0
-    _protected: 0
-    auth fallback: 1
-    auth type: userpass
-    autoreconnect: ''
-    autossh: ''
-    children: {}
-    cluster: []
-    description: ''
-    embed: 0
-    expect: []
-    favourite: 0
-    infer from KPX where: 3
-    infer user pass from KPX: ''
-    ip: 10.10.2.20
-    local after: []
-    local before: []
-    local connected: []
-    mac: ''
-    macros: []
-    method: SSH
-    name: zn4-rs1-d0
-    options: ' -X'
-    parent: f1f6cd4e-1e12-451c-871c-fa746b03bfc4
-    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase user: ubuntu
-    port: 22
-    prepend command: ''
-    proxy ip: ''
-    proxy pass: ''
-    proxy port: 8080
-    proxy user: ''
-    public key: ''
-    quote command: ''
-    remove control chars: ''
-    save session logs: ''
-    screenshots: []
-    search pass on KPX: 0
-    send slow: 0
-    send string active: ''
-    send string every: 60
-    send string intro: 1
-    send string txt: ''
-    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
-    session logs amount: 10
-    session logs folder: /home/ptonini/.config/pac/session_logs
-    startup launch: ''
-    startup script: ''
-    startup script name: sample1.pl
-    terminal options:
-      audible bell: ''
-      back color: '#000000000000'
-      bold color: '#cc62cc62cc62'
-      bold color like text: 1
-      command prompt: '[#%\$>]|\:\/\s*$'
-      cursor shape: block
-      disable ALT key bindings: ''
-      disable CTRL key bindings: ''
-      disable SHIFT key bindings: ''
-      open in tab: 1
-      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
-      tab back color: '#000000000000'
-      terminal backspace: auto
-      terminal character encoding: UTF-8
-      terminal emulation: xterm
-      terminal font: Monospace 9
-      terminal scrollback lines: 5000
-      terminal select words: \.:_\/-A-Za-z0-9
-      terminal transparency: 0
-      terminal window hsize: 800
-      terminal window vsize: 600
-      text color: '#cc62cc62cc62'
-      timeout command: 40
-      timeout connect: 40
-      use personal settings: ''
-      use tab back color: ''
-      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
-      visible bell: ''
-    title: zn4-rs1-d0
-    use prepend command: ''
-    use proxy: 0
-    use sudo: ''
-    user: hosting
-    variables: []
-  2d19af08-bce7-4ef3-b0b2-8136fdd13230:
-    KPX title regexp: ''
-    _is_group: 0
-    _protected: 0
-    auth fallback: 1
-    auth type: userpass
-    autoreconnect: ''
-    autossh: ''
-    children: {}
-    cluster: []
-    description: ''
-    embed: 0
-    expect: []
-    favourite: 0
-    infer from KPX where: 3
-    infer user pass from KPX: ''
-    ip: 10.10.2.34
-    local after: []
-    local before: []
-    local connected: []
-    mac: ''
-    macros: []
-    method: SSH
-    name: zn4-worker-a6
-    options: ' -X'
-    parent: f1f6cd4e-1e12-451c-871c-fa746b03bfc4
-    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase user: ubuntu
-    port: 22
-    prepend command: ''
-    proxy ip: ''
-    proxy pass: ''
-    proxy port: 8080
-    proxy user: ''
-    public key: ''
-    quote command: ''
-    remove control chars: ''
-    save session logs: ''
-    screenshots: []
-    search pass on KPX: 0
-    send slow: 0
-    send string active: ''
-    send string every: 60
-    send string intro: 1
-    send string txt: ''
-    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
-    session logs amount: 10
-    session logs folder: /home/ptonini/.config/pac/session_logs
-    startup launch: ''
-    startup script: ''
-    startup script name: sample1.pl
-    terminal options:
-      audible bell: ''
-      back color: '#000000000000'
-      bold color: '#cc62cc62cc62'
-      bold color like text: 1
-      command prompt: '[#%\$>]|\:\/\s*$'
-      cursor shape: block
-      disable ALT key bindings: ''
-      disable CTRL key bindings: ''
-      disable SHIFT key bindings: ''
-      open in tab: 1
-      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
-      tab back color: '#000000000000'
-      terminal backspace: auto
-      terminal character encoding: UTF-8
-      terminal emulation: xterm
-      terminal font: Monospace 9
-      terminal scrollback lines: 5000
-      terminal select words: \.:_\/-A-Za-z0-9
-      terminal transparency: 0
-      terminal window hsize: 800
-      terminal window vsize: 600
-      text color: '#cc62cc62cc62'
-      timeout command: 40
-      timeout connect: 40
-      use personal settings: ''
-      use tab back color: ''
-      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
-      visible bell: ''
-    title: zn4-worker-a6
-    use prepend command: ''
-    use proxy: 0
-    use sudo: ''
-    user: hosting
-    variables: []
-  308478dc-1ba5-49df-8538-05d7226dd994:
-    KPX title regexp: ''
-    _is_group: 0
-    _protected: 0
-    auth fallback: 1
-    auth type: userpass
-    autoreconnect: ''
-    autossh: ''
-    children: {}
-    cluster: []
-    description: ''
-    embed: 0
-    expect: []
-    favourite: 0
-    infer from KPX where: 3
-    infer user pass from KPX: ''
-    ip: 10.10.1.50
-    local after: []
-    local before: []
-    local connected: []
-    mac: ''
-    macros: []
-    method: SSH
-    name: zn5-worker-v4
-    options: ' -X'
-    parent: 9430ef9e-1b40-4d77-8690-67b7accc1e90
-    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase user: ubuntu
-    port: 22
-    prepend command: ''
-    proxy ip: ''
-    proxy pass: ''
-    proxy port: 8080
-    proxy user: ''
-    public key: ''
-    quote command: ''
-    remove control chars: ''
-    save session logs: ''
-    screenshots: []
-    search pass on KPX: 0
-    send slow: 0
-    send string active: ''
-    send string every: 60
-    send string intro: 1
-    send string txt: ''
-    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
-    session logs amount: 10
-    session logs folder: /home/ptonini/.config/pac/session_logs
-    startup launch: ''
-    startup script: ''
-    startup script name: sample1.pl
-    terminal options:
-      audible bell: ''
-      back color: '#000000000000'
-      bold color: '#cc62cc62cc62'
-      bold color like text: 1
-      command prompt: '[#%\$>]|\:\/\s*$'
-      cursor shape: block
-      disable ALT key bindings: ''
-      disable CTRL key bindings: ''
-      disable SHIFT key bindings: ''
-      open in tab: 1
-      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
-      tab back color: '#000000000000'
-      terminal backspace: auto
-      terminal character encoding: UTF-8
-      terminal emulation: xterm
-      terminal font: Monospace 9
-      terminal scrollback lines: 5000
-      terminal select words: \.:_\/-A-Za-z0-9
-      terminal transparency: 0
-      terminal window hsize: 800
-      terminal window vsize: 600
-      text color: '#cc62cc62cc62'
-      timeout command: 40
-      timeout connect: 40
-      use personal settings: ''
-      use tab back color: ''
-      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
-      visible bell: ''
-    title: zn5-worker-v4
-    use prepend command: ''
-    use proxy: 0
-    use sudo: ''
-    user: hosting
-    variables: []
-  326521f5-1d7c-4bff-b832-919b6b7a55c6:
-    KPX title regexp: ''
-    _is_group: 0
-    _protected: 0
-    auth fallback: 1
-    auth type: userpass
-    autoreconnect: ''
-    autossh: ''
-    children: {}
-    cluster: []
-    description: ''
-    embed: 0
-    expect: []
-    favourite: 0
-    infer from KPX where: 3
-    infer user pass from KPX: ''
-    ip: 10.10.2.25
-    local after: []
-    local before: []
-    local connected: []
-    mac: ''
-    macros: []
-    method: SSH
-    name: zn4-nginx0
-    options: ' -X'
-    parent: f1f6cd4e-1e12-451c-871c-fa746b03bfc4
-    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase user: ubuntu
-    port: 22
-    prepend command: ''
-    proxy ip: ''
-    proxy pass: ''
-    proxy port: 8080
-    proxy user: ''
-    public key: ''
-    quote command: ''
-    remove control chars: ''
-    save session logs: ''
-    screenshots: []
-    search pass on KPX: 0
-    send slow: 0
-    send string active: ''
-    send string every: 60
-    send string intro: 1
-    send string txt: ''
-    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
-    session logs amount: 10
-    session logs folder: /home/ptonini/.config/pac/session_logs
-    startup launch: ''
-    startup script: ''
-    startup script name: sample1.pl
-    terminal options:
-      audible bell: ''
-      back color: '#000000000000'
-      bold color: '#cc62cc62cc62'
-      bold color like text: 1
-      command prompt: '[#%\$>]|\:\/\s*$'
-      cursor shape: block
-      disable ALT key bindings: ''
-      disable CTRL key bindings: ''
-      disable SHIFT key bindings: ''
-      open in tab: 1
-      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
-      tab back color: '#000000000000'
-      terminal backspace: auto
-      terminal character encoding: UTF-8
-      terminal emulation: xterm
-      terminal font: Monospace 9
-      terminal scrollback lines: 5000
-      terminal select words: \.:_\/-A-Za-z0-9
-      terminal transparency: 0
-      terminal window hsize: 800
-      terminal window vsize: 600
-      text color: '#cc62cc62cc62'
-      timeout command: 40
-      timeout connect: 40
-      use personal settings: ''
-      use tab back color: ''
-      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
-      visible bell: ''
-    title: zn4-nginx0
-    use prepend command: ''
-    use proxy: 0
-    use sudo: ''
-    user: hosting
+    user: bbb
     variables: []
   37ad5eb3-ff16-464e-8351-3128933d83dc:
     KPX title regexp: .*vm-mirror_brt_sec.*
@@ -1812,93 +524,6 @@ environments:
     use proxy: 0
     use sudo: ''
     user: administrador
-    variables: []
-  38172486-eb10-485f-910f-61fa07d2a803:
-    KPX title regexp: ''
-    _is_group: 0
-    _protected: 0
-    auth fallback: 1
-    auth type: userpass
-    autoreconnect: ''
-    autossh: ''
-    children: {}
-    cluster: []
-    description: ''
-    embed: 0
-    expect: []
-    favourite: 0
-    infer from KPX where: 3
-    infer user pass from KPX: ''
-    ip: 10.10.2.38
-    local after: []
-    local before: []
-    local connected: []
-    mac: ''
-    macros: []
-    method: SSH
-    name: zn4-gwa1
-    options: ' -X'
-    parent: f1f6cd4e-1e12-451c-871c-fa746b03bfc4
-    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase user: ubuntu
-    port: 22
-    prepend command: ''
-    proxy ip: ''
-    proxy pass: ''
-    proxy port: 8080
-    proxy user: ''
-    public key: ''
-    quote command: ''
-    remove control chars: ''
-    save session logs: ''
-    screenshots: []
-    search pass on KPX: 0
-    send slow: 0
-    send string active: ''
-    send string every: 60
-    send string intro: 1
-    send string txt: ''
-    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
-    session logs amount: 10
-    session logs folder: /home/ptonini/.config/pac/session_logs
-    startup launch: ''
-    startup script: ''
-    startup script name: sample1.pl
-    terminal options:
-      audible bell: ''
-      back color: '#000000000000'
-      bold color: '#cc62cc62cc62'
-      bold color like text: 1
-      command prompt: '[#%\$>]|\:\/\s*$'
-      cursor shape: block
-      disable ALT key bindings: ''
-      disable CTRL key bindings: ''
-      disable SHIFT key bindings: ''
-      open in tab: 1
-      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
-      tab back color: '#000000000000'
-      terminal backspace: auto
-      terminal character encoding: UTF-8
-      terminal emulation: xterm
-      terminal font: Monospace 9
-      terminal scrollback lines: 5000
-      terminal select words: \.:_\/-A-Za-z0-9
-      terminal transparency: 0
-      terminal window hsize: 800
-      terminal window vsize: 600
-      text color: '#cc62cc62cc62'
-      timeout command: 40
-      timeout connect: 40
-      use personal settings: ''
-      use tab back color: ''
-      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
-      visible bell: ''
-    title: zn4-gwa1
-    use prepend command: ''
-    use proxy: 0
-    use sudo: ''
-    user: hosting
     variables: []
   3908d076-f000-4d48-975b-4e085b8c44c4:
     KPX title regexp: .*vm-mirror_brt_sec.*
@@ -2074,93 +699,6 @@ environments:
     use sudo: ''
     user: administrator
     variables: []
-  3e34261a-b9e1-4f14-b516-e4635d178861:
-    KPX title regexp: ''
-    _is_group: 0
-    _protected: 0
-    auth fallback: 1
-    auth type: userpass
-    autoreconnect: ''
-    autossh: ''
-    children: {}
-    cluster: []
-    description: ''
-    embed: 0
-    expect: []
-    favourite: 0
-    infer from KPX where: 3
-    infer user pass from KPX: ''
-    ip: 10.10.2.24
-    local after: []
-    local before: []
-    local connected: []
-    mac: ''
-    macros: []
-    method: SSH
-    name: zn4-rs2-d1
-    options: ' -X'
-    parent: f1f6cd4e-1e12-451c-871c-fa746b03bfc4
-    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase user: ubuntu
-    port: 22
-    prepend command: ''
-    proxy ip: ''
-    proxy pass: ''
-    proxy port: 8080
-    proxy user: ''
-    public key: ''
-    quote command: ''
-    remove control chars: ''
-    save session logs: ''
-    screenshots: []
-    search pass on KPX: 0
-    send slow: 0
-    send string active: ''
-    send string every: 60
-    send string intro: 1
-    send string txt: ''
-    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
-    session logs amount: 10
-    session logs folder: /home/ptonini/.config/pac/session_logs
-    startup launch: ''
-    startup script: ''
-    startup script name: sample1.pl
-    terminal options:
-      audible bell: ''
-      back color: '#000000000000'
-      bold color: '#cc62cc62cc62'
-      bold color like text: 1
-      command prompt: '[#%\$>]|\:\/\s*$'
-      cursor shape: block
-      disable ALT key bindings: ''
-      disable CTRL key bindings: ''
-      disable SHIFT key bindings: ''
-      open in tab: 1
-      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
-      tab back color: '#000000000000'
-      terminal backspace: auto
-      terminal character encoding: UTF-8
-      terminal emulation: xterm
-      terminal font: Monospace 9
-      terminal scrollback lines: 5000
-      terminal select words: \.:_\/-A-Za-z0-9
-      terminal transparency: 0
-      terminal window hsize: 800
-      terminal window vsize: 600
-      text color: '#cc62cc62cc62'
-      timeout command: 40
-      timeout connect: 40
-      use personal settings: ''
-      use tab back color: ''
-      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
-      visible bell: ''
-    title: zn4-rs2-d1
-    use prepend command: ''
-    use proxy: 0
-    use sudo: ''
-    user: hosting
-    variables: []
   3fbba822-9611-4e4a-9376-474c3662b8c4:
     _is_group: 1
     _protected: 0
@@ -2259,93 +797,6 @@ environments:
     use sudo: ''
     user: administrador
     variables: []
-  42f36498-b5a0-4762-9eef-711ef8c968a9:
-    KPX title regexp: ''
-    _is_group: 0
-    _protected: 0
-    auth fallback: 1
-    auth type: userpass
-    autoreconnect: ''
-    autossh: ''
-    children: {}
-    cluster: []
-    description: ''
-    embed: 0
-    expect: []
-    favourite: 0
-    infer from KPX where: 3
-    infer user pass from KPX: ''
-    ip: 10.10.1.28
-    local after: []
-    local before: []
-    local connected: []
-    mac: ''
-    macros: []
-    method: SSH
-    name: sso-admin-api0
-    options: ' -X'
-    parent: d6db3705-3345-41bb-b519-1d0e8cd3e6b6
-    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase user: ubuntu
-    port: 22
-    prepend command: ''
-    proxy ip: ''
-    proxy pass: ''
-    proxy port: 8080
-    proxy user: ''
-    public key: ''
-    quote command: ''
-    remove control chars: ''
-    save session logs: ''
-    screenshots: []
-    search pass on KPX: 0
-    send slow: 0
-    send string active: ''
-    send string every: 60
-    send string intro: 1
-    send string txt: ''
-    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
-    session logs amount: 10
-    session logs folder: /home/ptonini/.config/pac/session_logs
-    startup launch: ''
-    startup script: ''
-    startup script name: sample1.pl
-    terminal options:
-      audible bell: ''
-      back color: '#000000000000'
-      bold color: '#cc62cc62cc62'
-      bold color like text: 1
-      command prompt: '[#%\$>]|\:\/\s*$'
-      cursor shape: block
-      disable ALT key bindings: ''
-      disable CTRL key bindings: ''
-      disable SHIFT key bindings: ''
-      open in tab: 1
-      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
-      tab back color: '#000000000000'
-      terminal backspace: auto
-      terminal character encoding: UTF-8
-      terminal emulation: xterm
-      terminal font: Monospace 9
-      terminal scrollback lines: 5000
-      terminal select words: \.:_\/-A-Za-z0-9
-      terminal transparency: 0
-      terminal window hsize: 800
-      terminal window vsize: 600
-      text color: '#cc62cc62cc62'
-      timeout command: 40
-      timeout connect: 40
-      use personal settings: ''
-      use tab back color: ''
-      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
-      visible bell: ''
-    title: sso-admin-api0
-    use prepend command: ''
-    use proxy: 0
-    use sudo: ''
-    user: hosting
-    variables: []
   45a84c1b-d3e7-4ffb-8899-eb64ba6dbc8c:
     KPX title regexp: .*vm-mirror_brt_sec.*
     _is_group: 0
@@ -2432,354 +883,6 @@ environments:
     use proxy: 0
     use sudo: ''
     user: administrador
-    variables: []
-  45b56aa1-ea5f-4248-bf90-b3458e540335:
-    KPX title regexp: ''
-    _is_group: 0
-    _protected: 0
-    auth fallback: 1
-    auth type: userpass
-    autoreconnect: ''
-    autossh: ''
-    children: {}
-    cluster: []
-    description: ''
-    embed: 0
-    expect: []
-    favourite: 0
-    infer from KPX where: 3
-    infer user pass from KPX: ''
-    ip: 10.10.1.15
-    local after: []
-    local before: []
-    local connected: []
-    mac: ''
-    macros: []
-    method: SSH
-    name: zn5-redis0
-    options: ' -X'
-    parent: 9430ef9e-1b40-4d77-8690-67b7accc1e90
-    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase user: ubuntu
-    port: 22
-    prepend command: ''
-    proxy ip: ''
-    proxy pass: ''
-    proxy port: 8080
-    proxy user: ''
-    public key: ''
-    quote command: ''
-    remove control chars: ''
-    save session logs: ''
-    screenshots: []
-    search pass on KPX: 0
-    send slow: 0
-    send string active: ''
-    send string every: 60
-    send string intro: 1
-    send string txt: ''
-    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
-    session logs amount: 10
-    session logs folder: /home/ptonini/.config/pac/session_logs
-    startup launch: ''
-    startup script: ''
-    startup script name: sample1.pl
-    terminal options:
-      audible bell: ''
-      back color: '#000000000000'
-      bold color: '#cc62cc62cc62'
-      bold color like text: 1
-      command prompt: '[#%\$>]|\:\/\s*$'
-      cursor shape: block
-      disable ALT key bindings: ''
-      disable CTRL key bindings: ''
-      disable SHIFT key bindings: ''
-      open in tab: 1
-      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
-      tab back color: '#000000000000'
-      terminal backspace: auto
-      terminal character encoding: UTF-8
-      terminal emulation: xterm
-      terminal font: Monospace 9
-      terminal scrollback lines: 5000
-      terminal select words: \.:_\/-A-Za-z0-9
-      terminal transparency: 0
-      terminal window hsize: 800
-      terminal window vsize: 600
-      text color: '#cc62cc62cc62'
-      timeout command: 40
-      timeout connect: 40
-      use personal settings: ''
-      use tab back color: ''
-      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
-      visible bell: ''
-    title: zn5-redis0
-    use prepend command: ''
-    use proxy: 0
-    use sudo: ''
-    user: hosting
-    variables: []
-  47b95e20-9f34-4701-af3f-6136a3e8b99d:
-    KPX title regexp: ''
-    _is_group: 0
-    _protected: 0
-    auth fallback: 1
-    auth type: userpass
-    autoreconnect: ''
-    autossh: ''
-    children: {}
-    cluster: []
-    description: ''
-    embed: 0
-    expect: []
-    favourite: 0
-    infer from KPX where: 3
-    infer user pass from KPX: ''
-    ip: 10.10.2.16
-    local after: []
-    local before: []
-    local connected: []
-    mac: ''
-    macros: []
-    method: SSH
-    name: zn4-rs0-a
-    options: ' -X'
-    parent: f1f6cd4e-1e12-451c-871c-fa746b03bfc4
-    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase user: ubuntu
-    port: 22
-    prepend command: ''
-    proxy ip: ''
-    proxy pass: ''
-    proxy port: 8080
-    proxy user: ''
-    public key: ''
-    quote command: ''
-    remove control chars: ''
-    save session logs: ''
-    screenshots: []
-    search pass on KPX: 0
-    send slow: 0
-    send string active: ''
-    send string every: 60
-    send string intro: 1
-    send string txt: ''
-    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
-    session logs amount: 10
-    session logs folder: /home/ptonini/.config/pac/session_logs
-    startup launch: ''
-    startup script: ''
-    startup script name: sample1.pl
-    terminal options:
-      audible bell: ''
-      back color: '#000000000000'
-      bold color: '#cc62cc62cc62'
-      bold color like text: 1
-      command prompt: '[#%\$>]|\:\/\s*$'
-      cursor shape: block
-      disable ALT key bindings: ''
-      disable CTRL key bindings: ''
-      disable SHIFT key bindings: ''
-      open in tab: 1
-      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
-      tab back color: '#000000000000'
-      terminal backspace: auto
-      terminal character encoding: UTF-8
-      terminal emulation: xterm
-      terminal font: Monospace 9
-      terminal scrollback lines: 5000
-      terminal select words: \.:_\/-A-Za-z0-9
-      terminal transparency: 0
-      terminal window hsize: 800
-      terminal window vsize: 600
-      text color: '#cc62cc62cc62'
-      timeout command: 40
-      timeout connect: 40
-      use personal settings: ''
-      use tab back color: ''
-      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
-      visible bell: ''
-    title: zn4-rs0-a
-    use prepend command: ''
-    use proxy: 0
-    use sudo: ''
-    user: hosting
-    variables: []
-  4801c876-cddd-4591-b44a-106b60c7aefa:
-    KPX title regexp: ''
-    _is_group: 0
-    _protected: 0
-    auth fallback: 1
-    auth type: userpass
-    autoreconnect: ''
-    autossh: ''
-    children: {}
-    cluster: []
-    description: ''
-    embed: 0
-    expect: []
-    favourite: 0
-    infer from KPX where: 3
-    infer user pass from KPX: ''
-    ip: 10.10.2.23
-    local after: []
-    local before: []
-    local connected: []
-    mac: ''
-    macros: []
-    method: SSH
-    name: zn4-rs2-d0
-    options: ' -X'
-    parent: f1f6cd4e-1e12-451c-871c-fa746b03bfc4
-    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase user: ubuntu
-    port: 22
-    prepend command: ''
-    proxy ip: ''
-    proxy pass: ''
-    proxy port: 8080
-    proxy user: ''
-    public key: ''
-    quote command: ''
-    remove control chars: ''
-    save session logs: ''
-    screenshots: []
-    search pass on KPX: 0
-    send slow: 0
-    send string active: ''
-    send string every: 60
-    send string intro: 1
-    send string txt: ''
-    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
-    session logs amount: 10
-    session logs folder: /home/ptonini/.config/pac/session_logs
-    startup launch: ''
-    startup script: ''
-    startup script name: sample1.pl
-    terminal options:
-      audible bell: ''
-      back color: '#000000000000'
-      bold color: '#cc62cc62cc62'
-      bold color like text: 1
-      command prompt: '[#%\$>]|\:\/\s*$'
-      cursor shape: block
-      disable ALT key bindings: ''
-      disable CTRL key bindings: ''
-      disable SHIFT key bindings: ''
-      open in tab: 1
-      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
-      tab back color: '#000000000000'
-      terminal backspace: auto
-      terminal character encoding: UTF-8
-      terminal emulation: xterm
-      terminal font: Monospace 9
-      terminal scrollback lines: 5000
-      terminal select words: \.:_\/-A-Za-z0-9
-      terminal transparency: 0
-      terminal window hsize: 800
-      terminal window vsize: 600
-      text color: '#cc62cc62cc62'
-      timeout command: 40
-      timeout connect: 40
-      use personal settings: ''
-      use tab back color: ''
-      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
-      visible bell: ''
-    title: zn4-rs2-d0
-    use prepend command: ''
-    use proxy: 0
-    use sudo: ''
-    user: hosting
-    variables: []
-  49dd3b93-32f3-4c1b-ad73-fc6896b36e8f:
-    KPX title regexp: ''
-    _is_group: 0
-    _protected: 0
-    auth fallback: 1
-    auth type: userpass
-    autoreconnect: ''
-    autossh: ''
-    children: {}
-    cluster: []
-    description: ''
-    embed: 0
-    expect: []
-    favourite: 0
-    infer from KPX where: 3
-    infer user pass from KPX: ''
-    ip: 10.10.2.74
-    local after: []
-    local before: []
-    local connected: []
-    mac: ''
-    macros: []
-    method: SSH
-    name: zn4-websocket1
-    options: ' -X'
-    parent: f1f6cd4e-1e12-451c-871c-fa746b03bfc4
-    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase user: ubuntu
-    port: 22
-    prepend command: ''
-    proxy ip: ''
-    proxy pass: ''
-    proxy port: 8080
-    proxy user: ''
-    public key: ''
-    quote command: ''
-    remove control chars: ''
-    save session logs: ''
-    screenshots: []
-    search pass on KPX: 0
-    send slow: 0
-    send string active: ''
-    send string every: 60
-    send string intro: 1
-    send string txt: ''
-    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
-    session logs amount: 10
-    session logs folder: /home/ptonini/.config/pac/session_logs
-    startup launch: ''
-    startup script: ''
-    startup script name: sample1.pl
-    terminal options:
-      audible bell: ''
-      back color: '#000000000000'
-      bold color: '#cc62cc62cc62'
-      bold color like text: 1
-      command prompt: '[#%\$>]|\:\/\s*$'
-      cursor shape: block
-      disable ALT key bindings: ''
-      disable CTRL key bindings: ''
-      disable SHIFT key bindings: ''
-      open in tab: 1
-      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
-      tab back color: '#000000000000'
-      terminal backspace: auto
-      terminal character encoding: UTF-8
-      terminal emulation: xterm
-      terminal font: Monospace 9
-      terminal scrollback lines: 5000
-      terminal select words: \.:_\/-A-Za-z0-9
-      terminal transparency: 0
-      terminal window hsize: 800
-      terminal window vsize: 600
-      text color: '#cc62cc62cc62'
-      timeout command: 40
-      timeout connect: 40
-      use personal settings: ''
-      use tab back color: ''
-      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
-      visible bell: ''
-    title: zn4-websocket1
-    use prepend command: ''
-    use proxy: 0
-    use sudo: ''
-    user: hosting
     variables: []
   4a561d12-37e8-4703-b4fa-ff1ead62476b:
     KPX title regexp: .*vm-mirror_brt_sec.*
@@ -2868,93 +971,15 @@ environments:
     use sudo: ''
     user: pedro.tonini
     variables: []
-  52baae48-185c-40c2-b816-5cc26375d5b9:
-    KPX title regexp: ''
-    _is_group: 0
+  4c3973b6-e6dd-4783-8f47-a20e2d181713:
+    _is_group: 1
     _protected: 0
-    auth fallback: 1
-    auth type: userpass
-    autoreconnect: ''
-    autossh: ''
-    children: {}
-    cluster: []
-    description: ''
-    embed: 0
-    expect: []
-    favourite: 0
-    infer from KPX where: 3
-    infer user pass from KPX: ''
-    ip: 10.10.1.21
-    local after: []
-    local before: []
-    local connected: []
-    mac: ''
-    macros: []
-    method: SSH
-    name: zn5-rs1-d1
-    options: ' -X'
-    parent: 9430ef9e-1b40-4d77-8690-67b7accc1e90
-    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase user: ubuntu
-    port: 22
-    prepend command: ''
-    proxy ip: ''
-    proxy pass: ''
-    proxy port: 8080
-    proxy user: ''
-    public key: ''
-    quote command: ''
-    remove control chars: ''
-    save session logs: ''
+    children:
+      34bd0f3d-3a35-4a68-a6a1-8f450507c1d6: 1
+    description: Connection group 'Zona 4'
+    name: Zona 4
+    parent: 3062954a-bd88-4e20-b561-5f2e0fa3cdb5
     screenshots: []
-    search pass on KPX: 0
-    send slow: 0
-    send string active: ''
-    send string every: 60
-    send string intro: 1
-    send string txt: ''
-    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
-    session logs amount: 10
-    session logs folder: /home/ptonini/.config/pac/session_logs
-    startup launch: ''
-    startup script: ''
-    startup script name: sample1.pl
-    terminal options:
-      audible bell: ''
-      back color: '#000000000000'
-      bold color: '#cc62cc62cc62'
-      bold color like text: 1
-      command prompt: '[#%\$>]|\:\/\s*$'
-      cursor shape: block
-      disable ALT key bindings: ''
-      disable CTRL key bindings: ''
-      disable SHIFT key bindings: ''
-      open in tab: 1
-      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
-      tab back color: '#000000000000'
-      terminal backspace: auto
-      terminal character encoding: UTF-8
-      terminal emulation: xterm
-      terminal font: Monospace 9
-      terminal scrollback lines: 5000
-      terminal select words: \.:_\/-A-Za-z0-9
-      terminal transparency: 0
-      terminal window hsize: 800
-      terminal window vsize: 600
-      text color: '#cc62cc62cc62'
-      timeout command: 40
-      timeout connect: 40
-      use personal settings: ''
-      use tab back color: ''
-      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
-      visible bell: ''
-    title: zn5-rs1-d1
-    use prepend command: ''
-    use proxy: 0
-    use sudo: ''
-    user: hosting
-    variables: []
   533ca86c-2f8c-4e4a-9575-d1c32f7317b7:
     _is_group: 1
     _protected: 0
@@ -2971,180 +996,6 @@ environments:
     name: Mirrors
     parent: bfdb38bb-d0f1-4fe7-a60e-530ee7494601
     screenshots: []
-  54898908-bf87-48cc-9aed-2d7fa743fed6:
-    KPX title regexp: ''
-    _is_group: 0
-    _protected: 0
-    auth fallback: 1
-    auth type: userpass
-    autoreconnect: ''
-    autossh: ''
-    children: {}
-    cluster: []
-    description: ''
-    embed: 0
-    expect: []
-    favourite: 0
-    infer from KPX where: 3
-    infer user pass from KPX: ''
-    ip: 10.10.1.35
-    local after: []
-    local before: []
-    local connected: []
-    mac: ''
-    macros: []
-    method: SSH
-    name: zn5-worker-v1
-    options: ' -X'
-    parent: 9430ef9e-1b40-4d77-8690-67b7accc1e90
-    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase user: ubuntu
-    port: 22
-    prepend command: ''
-    proxy ip: ''
-    proxy pass: ''
-    proxy port: 8080
-    proxy user: ''
-    public key: ''
-    quote command: ''
-    remove control chars: ''
-    save session logs: ''
-    screenshots: []
-    search pass on KPX: 0
-    send slow: 0
-    send string active: ''
-    send string every: 60
-    send string intro: 1
-    send string txt: ''
-    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
-    session logs amount: 10
-    session logs folder: /home/ptonini/.config/pac/session_logs
-    startup launch: ''
-    startup script: ''
-    startup script name: sample1.pl
-    terminal options:
-      audible bell: ''
-      back color: '#000000000000'
-      bold color: '#cc62cc62cc62'
-      bold color like text: 1
-      command prompt: '[#%\$>]|\:\/\s*$'
-      cursor shape: block
-      disable ALT key bindings: ''
-      disable CTRL key bindings: ''
-      disable SHIFT key bindings: ''
-      open in tab: 1
-      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
-      tab back color: '#000000000000'
-      terminal backspace: auto
-      terminal character encoding: UTF-8
-      terminal emulation: xterm
-      terminal font: Monospace 9
-      terminal scrollback lines: 5000
-      terminal select words: \.:_\/-A-Za-z0-9
-      terminal transparency: 0
-      terminal window hsize: 800
-      terminal window vsize: 600
-      text color: '#cc62cc62cc62'
-      timeout command: 40
-      timeout connect: 40
-      use personal settings: ''
-      use tab back color: ''
-      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
-      visible bell: ''
-    title: zn5-worker-v1
-    use prepend command: ''
-    use proxy: 0
-    use sudo: ''
-    user: hosting
-    variables: []
-  58562b6f-70bc-4198-8320-a7fbe9913ff7:
-    KPX title regexp: ''
-    _is_group: 0
-    _protected: 0
-    auth fallback: 1
-    auth type: userpass
-    autoreconnect: ''
-    autossh: ''
-    children: {}
-    cluster: []
-    description: ''
-    embed: 0
-    expect: []
-    favourite: 0
-    infer from KPX where: 3
-    infer user pass from KPX: ''
-    ip: 10.10.1.36
-    local after: []
-    local before: []
-    local connected: []
-    mac: ''
-    macros: []
-    method: SSH
-    name: zn5-worker-s1
-    options: ' -X'
-    parent: 9430ef9e-1b40-4d77-8690-67b7accc1e90
-    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase user: ubuntu
-    port: 22
-    prepend command: ''
-    proxy ip: ''
-    proxy pass: ''
-    proxy port: 8080
-    proxy user: ''
-    public key: ''
-    quote command: ''
-    remove control chars: ''
-    save session logs: ''
-    screenshots: []
-    search pass on KPX: 0
-    send slow: 0
-    send string active: ''
-    send string every: 60
-    send string intro: 1
-    send string txt: ''
-    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
-    session logs amount: 10
-    session logs folder: /home/ptonini/.config/pac/session_logs
-    startup launch: ''
-    startup script: ''
-    startup script name: sample1.pl
-    terminal options:
-      audible bell: ''
-      back color: '#000000000000'
-      bold color: '#cc62cc62cc62'
-      bold color like text: 1
-      command prompt: '[#%\$>]|\:\/\s*$'
-      cursor shape: block
-      disable ALT key bindings: ''
-      disable CTRL key bindings: ''
-      disable SHIFT key bindings: ''
-      open in tab: 1
-      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
-      tab back color: '#000000000000'
-      terminal backspace: auto
-      terminal character encoding: UTF-8
-      terminal emulation: xterm
-      terminal font: Monospace 9
-      terminal scrollback lines: 5000
-      terminal select words: \.:_\/-A-Za-z0-9
-      terminal transparency: 0
-      terminal window hsize: 800
-      terminal window vsize: 600
-      text color: '#cc62cc62cc62'
-      timeout command: 40
-      timeout connect: 40
-      use personal settings: ''
-      use tab back color: ''
-      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
-      visible bell: ''
-    title: zn5-worker-s1
-    use prepend command: ''
-    use proxy: 0
-    use sudo: ''
-    user: hosting
-    variables: []
   59397ded-7185-47e0-a16d-15c82fad1388:
     KPX title regexp: .*vm-mirror_brt_sec.*
     _is_group: 0
@@ -3231,93 +1082,6 @@ environments:
     use proxy: 0
     use sudo: ''
     user: pedro.tonini
-    variables: []
-  5a53d554-88e5-45f3-9c98-3388d5df51db:
-    KPX title regexp: ''
-    _is_group: 0
-    _protected: 0
-    auth fallback: 1
-    auth type: userpass
-    autoreconnect: ''
-    autossh: ''
-    children: {}
-    cluster: []
-    description: ''
-    embed: 0
-    expect: []
-    favourite: 0
-    infer from KPX where: 3
-    infer user pass from KPX: ''
-    ip: 10.10.1.74
-    local after: []
-    local before: []
-    local connected: []
-    mac: ''
-    macros: []
-    method: SSH
-    name: zn5-websocket1
-    options: ' -X'
-    parent: 9430ef9e-1b40-4d77-8690-67b7accc1e90
-    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase user: ubuntu
-    port: 22
-    prepend command: ''
-    proxy ip: ''
-    proxy pass: ''
-    proxy port: 8080
-    proxy user: ''
-    public key: ''
-    quote command: ''
-    remove control chars: ''
-    save session logs: ''
-    screenshots: []
-    search pass on KPX: 0
-    send slow: 0
-    send string active: ''
-    send string every: 60
-    send string intro: 1
-    send string txt: ''
-    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
-    session logs amount: 10
-    session logs folder: /home/ptonini/.config/pac/session_logs
-    startup launch: ''
-    startup script: ''
-    startup script name: sample1.pl
-    terminal options:
-      audible bell: ''
-      back color: '#000000000000'
-      bold color: '#cc62cc62cc62'
-      bold color like text: 1
-      command prompt: '[#%\$>]|\:\/\s*$'
-      cursor shape: block
-      disable ALT key bindings: ''
-      disable CTRL key bindings: ''
-      disable SHIFT key bindings: ''
-      open in tab: 1
-      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
-      tab back color: '#000000000000'
-      terminal backspace: auto
-      terminal character encoding: UTF-8
-      terminal emulation: xterm
-      terminal font: Monospace 9
-      terminal scrollback lines: 5000
-      terminal select words: \.:_\/-A-Za-z0-9
-      terminal transparency: 0
-      terminal window hsize: 800
-      terminal window vsize: 600
-      text color: '#cc62cc62cc62'
-      timeout command: 40
-      timeout connect: 40
-      use personal settings: ''
-      use tab back color: ''
-      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
-      visible bell: ''
-    title: zn5-websocket1
-    use prepend command: ''
-    use proxy: 0
-    use sudo: ''
-    user: hosting
     variables: []
   5e4aac1d-db9a-4188-9425-a37c1e2640e9:
     KPX title regexp: .*hal9000.*
@@ -3492,15 +1256,6 @@ environments:
     use sudo: ''
     user: administrador
     variables: []
-  61cd9540-ea02-498e-b8a0-d87cfd98fe7a:
-    _is_group: 1
-    _protected: 0
-    children:
-      1ca9687f-853d-40f2-b89e-3b08e0c78177: 1
-    description: Connection group 'admin'
-    name: admin
-    parent: c4edb639-374a-4f75-80b8-27963da75c8d
-    screenshots: []
   62d935f8-970c-4c6d-b44c-796e585c4976:
     KPX title regexp: .*zn-poc-api.*
     _is_group: 0
@@ -3536,7 +1291,7 @@ environments:
     proxy pass: ''
     proxy port: 8080
     proxy user: ''
-    public key: /home/ptonini/.config/pac/poc.rsa
+    public key: /home/ptonini/.ssh/poc.rsa
     quote command: ''
     remove control chars: ''
     save session logs: ''
@@ -3675,441 +1430,24 @@ environments:
     use sudo: ''
     user: administrador
     variables: []
-  67e4737b-2641-4968-90cc-842c2dca0a60:
-    KPX title regexp: ''
-    _is_group: 0
+  64f7eeae-6cdc-40ee-b569-fd66e160167f:
+    _is_group: 1
     _protected: 0
-    auth fallback: 1
-    auth type: userpass
-    autoreconnect: ''
-    autossh: ''
-    children: {}
-    cluster: []
-    description: ''
-    embed: 0
-    expect: []
-    favourite: 0
-    infer from KPX where: 3
-    infer user pass from KPX: ''
-    ip: 10.10.1.55
-    local after: []
-    local before: []
-    local connected: []
-    mac: ''
-    macros: []
-    method: SSH
-    name: zn5-worker-v5
-    options: ' -X'
-    parent: 9430ef9e-1b40-4d77-8690-67b7accc1e90
-    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase user: ubuntu
-    port: 22
-    prepend command: ''
-    proxy ip: ''
-    proxy pass: ''
-    proxy port: 8080
-    proxy user: ''
-    public key: ''
-    quote command: ''
-    remove control chars: ''
-    save session logs: ''
+    children:
+      f254b822-1858-47c9-8488-6f09d7e9ede8: 1
+    description: Connection group 'SSO'
+    name: SSO
+    parent: 3062954a-bd88-4e20-b561-5f2e0fa3cdb5
     screenshots: []
-    search pass on KPX: 0
-    send slow: 0
-    send string active: ''
-    send string every: 60
-    send string intro: 1
-    send string txt: ''
-    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
-    session logs amount: 10
-    session logs folder: /home/ptonini/.config/pac/session_logs
-    startup launch: ''
-    startup script: ''
-    startup script name: sample1.pl
-    terminal options:
-      audible bell: ''
-      back color: '#000000000000'
-      bold color: '#cc62cc62cc62'
-      bold color like text: 1
-      command prompt: '[#%\$>]|\:\/\s*$'
-      cursor shape: block
-      disable ALT key bindings: ''
-      disable CTRL key bindings: ''
-      disable SHIFT key bindings: ''
-      open in tab: 1
-      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
-      tab back color: '#000000000000'
-      terminal backspace: auto
-      terminal character encoding: UTF-8
-      terminal emulation: xterm
-      terminal font: Monospace 9
-      terminal scrollback lines: 5000
-      terminal select words: \.:_\/-A-Za-z0-9
-      terminal transparency: 0
-      terminal window hsize: 800
-      terminal window vsize: 600
-      text color: '#cc62cc62cc62'
-      timeout command: 40
-      timeout connect: 40
-      use personal settings: ''
-      use tab back color: ''
-      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
-      visible bell: ''
-    title: zn5-worker-v5
-    use prepend command: ''
-    use proxy: 0
-    use sudo: ''
-    user: hosting
-    variables: []
-  68b15b2b-ebcd-42f2-a396-81dd996cc194:
-    KPX title regexp: ''
-    _is_group: 0
+  66f59950-277e-4797-a91d-5f653cb4a094:
+    _is_group: 1
     _protected: 0
-    auth fallback: 1
-    auth type: userpass
-    autoreconnect: ''
-    autossh: ''
-    children: {}
-    cluster: []
-    description: ''
-    embed: 0
-    expect: []
-    favourite: 0
-    infer from KPX where: 3
-    infer user pass from KPX: ''
-    ip: 10.10.1.44
-    local after: []
-    local before: []
-    local connected: []
-    mac: ''
-    macros: []
-    method: SSH
-    name: zn5-worker-a3
-    options: ' -X'
-    parent: 9430ef9e-1b40-4d77-8690-67b7accc1e90
-    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase user: ubuntu
-    port: 22
-    prepend command: ''
-    proxy ip: ''
-    proxy pass: ''
-    proxy port: 8080
-    proxy user: ''
-    public key: ''
-    quote command: ''
-    remove control chars: ''
-    save session logs: ''
+    children:
+      adc4d72e-32e6-447a-98ef-ebecb7d6616e: 1
+    description: Connection group 'M2M-Local'
+    name: M2M-Local
+    parent: __PAC__ROOT__
     screenshots: []
-    search pass on KPX: 0
-    send slow: 0
-    send string active: ''
-    send string every: 60
-    send string intro: 1
-    send string txt: ''
-    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
-    session logs amount: 10
-    session logs folder: /home/ptonini/.config/pac/session_logs
-    startup launch: ''
-    startup script: ''
-    startup script name: sample1.pl
-    terminal options:
-      audible bell: ''
-      back color: '#000000000000'
-      bold color: '#cc62cc62cc62'
-      bold color like text: 1
-      command prompt: '[#%\$>]|\:\/\s*$'
-      cursor shape: block
-      disable ALT key bindings: ''
-      disable CTRL key bindings: ''
-      disable SHIFT key bindings: ''
-      open in tab: 1
-      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
-      tab back color: '#000000000000'
-      terminal backspace: auto
-      terminal character encoding: UTF-8
-      terminal emulation: xterm
-      terminal font: Monospace 9
-      terminal scrollback lines: 5000
-      terminal select words: \.:_\/-A-Za-z0-9
-      terminal transparency: 0
-      terminal window hsize: 800
-      terminal window vsize: 600
-      text color: '#cc62cc62cc62'
-      timeout command: 40
-      timeout connect: 40
-      use personal settings: ''
-      use tab back color: ''
-      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
-      visible bell: ''
-    title: zn5-worker-a3
-    use prepend command: ''
-    use proxy: 0
-    use sudo: ''
-    user: hosting
-    variables: []
-  68d12e04-f229-421f-9b20-67ca58ab0989:
-    KPX title regexp: ''
-    _is_group: 0
-    _protected: 0
-    auth fallback: 1
-    auth type: userpass
-    autoreconnect: ''
-    autossh: ''
-    children: {}
-    cluster: []
-    description: ''
-    embed: 0
-    expect: []
-    favourite: 0
-    infer from KPX where: 3
-    infer user pass from KPX: ''
-    ip: 10.10.1.77
-    local after: []
-    local before: []
-    local connected: []
-    mac: ''
-    macros: []
-    method: SSH
-    name: zn5-redis1
-    options: ' -X'
-    parent: 9430ef9e-1b40-4d77-8690-67b7accc1e90
-    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase user: ubuntu
-    port: 22
-    prepend command: ''
-    proxy ip: ''
-    proxy pass: ''
-    proxy port: 8080
-    proxy user: ''
-    public key: ''
-    quote command: ''
-    remove control chars: ''
-    save session logs: ''
-    screenshots: []
-    search pass on KPX: 0
-    send slow: 0
-    send string active: ''
-    send string every: 60
-    send string intro: 1
-    send string txt: ''
-    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
-    session logs amount: 10
-    session logs folder: /home/ptonini/.config/pac/session_logs
-    startup launch: ''
-    startup script: ''
-    startup script name: sample1.pl
-    terminal options:
-      audible bell: ''
-      back color: '#000000000000'
-      bold color: '#cc62cc62cc62'
-      bold color like text: 1
-      command prompt: '[#%\$>]|\:\/\s*$'
-      cursor shape: block
-      disable ALT key bindings: ''
-      disable CTRL key bindings: ''
-      disable SHIFT key bindings: ''
-      open in tab: 1
-      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
-      tab back color: '#000000000000'
-      terminal backspace: auto
-      terminal character encoding: UTF-8
-      terminal emulation: xterm
-      terminal font: Monospace 9
-      terminal scrollback lines: 5000
-      terminal select words: \.:_\/-A-Za-z0-9
-      terminal transparency: 0
-      terminal window hsize: 800
-      terminal window vsize: 600
-      text color: '#cc62cc62cc62'
-      timeout command: 40
-      timeout connect: 40
-      use personal settings: ''
-      use tab back color: ''
-      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
-      visible bell: ''
-    title: zn5-redis1
-    use prepend command: ''
-    use proxy: 0
-    use sudo: ''
-    user: hosting
-    variables: []
-  6dfd962d-79da-41ab-9948-08a47db9c50d:
-    KPX title regexp: ''
-    _is_group: 0
-    _protected: 0
-    auth fallback: 1
-    auth type: userpass
-    autoreconnect: ''
-    autossh: ''
-    children: {}
-    cluster: []
-    description: ''
-    embed: 0
-    expect: []
-    favourite: 0
-    infer from KPX where: 3
-    infer user pass from KPX: ''
-    ip: 10.10.2.15
-    local after: []
-    local before: []
-    local connected: []
-    mac: ''
-    macros: []
-    method: SSH
-    name: zn4-redis0
-    options: ' -X'
-    parent: f1f6cd4e-1e12-451c-871c-fa746b03bfc4
-    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase user: ubuntu
-    port: 22
-    prepend command: ''
-    proxy ip: ''
-    proxy pass: ''
-    proxy port: 8080
-    proxy user: ''
-    public key: ''
-    quote command: ''
-    remove control chars: ''
-    save session logs: ''
-    screenshots: []
-    search pass on KPX: 0
-    send slow: 0
-    send string active: ''
-    send string every: 60
-    send string intro: 1
-    send string txt: ''
-    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
-    session logs amount: 10
-    session logs folder: /home/ptonini/.config/pac/session_logs
-    startup launch: ''
-    startup script: ''
-    startup script name: sample1.pl
-    terminal options:
-      audible bell: ''
-      back color: '#000000000000'
-      bold color: '#cc62cc62cc62'
-      bold color like text: 1
-      command prompt: '[#%\$>]|\:\/\s*$'
-      cursor shape: block
-      disable ALT key bindings: ''
-      disable CTRL key bindings: ''
-      disable SHIFT key bindings: ''
-      open in tab: 1
-      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
-      tab back color: '#000000000000'
-      terminal backspace: auto
-      terminal character encoding: UTF-8
-      terminal emulation: xterm
-      terminal font: Monospace 9
-      terminal scrollback lines: 5000
-      terminal select words: \.:_\/-A-Za-z0-9
-      terminal transparency: 0
-      terminal window hsize: 800
-      terminal window vsize: 600
-      text color: '#cc62cc62cc62'
-      timeout command: 40
-      timeout connect: 40
-      use personal settings: ''
-      use tab back color: ''
-      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
-      visible bell: ''
-    title: zn4-redis0
-    use prepend command: ''
-    use proxy: 0
-    use sudo: ''
-    user: hosting
-    variables: []
-  6e2fcd04-8697-4280-82e3-d1c9eea7febb:
-    KPX title regexp: .*mirror-primario.*
-    _is_group: 0
-    _protected: 0
-    auth fallback: 1
-    auth type: userpass
-    autoreconnect: ''
-    autossh: ''
-    children: {}
-    cluster: []
-    description: Connection with 'mirror-primario'
-    embed: 1
-    expect: []
-    favourite: 0
-    infer from KPX where: 3
-    infer user pass from KPX: ''
-    ip: 200.217.168.116
-    local after: []
-    local before: []
-    local connected: []
-    mac: ''
-    macros: []
-    method: RDP (rdesktop)
-    name: mirror-secundario
-    options: ' -5 -a 24 -r sound:local -r clipboard:PRIMARYCLIPBOARD'
-    parent: 13d34e68-2420-498e-b276-1e7e6c48b676
-    pass: 53616c7465645f5f3132333435363738301dd74da559d270
-    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase user: ''
-    port: 3389
-    prepend command: ''
-    proxy ip: ''
-    proxy pass: ''
-    proxy port: 8080
-    proxy user: ''
-    public key: ''
-    quote command: ''
-    remove control chars: ''
-    save session logs: ''
-    screenshots: []
-    search pass on KPX: 0
-    send slow: 0
-    send string active: ''
-    send string every: 60
-    send string intro: 1
-    send string txt: ''
-    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
-    session logs amount: 10
-    session logs folder: /home/ptonini/.config/pac/session_logs
-    startup launch: ''
-    startup script: ''
-    startup script name: sample1.pl
-    terminal options:
-      audible bell: ''
-      back color: '#000000000000'
-      bold color: '#cc62cc62cc62'
-      bold color like text: 1
-      command prompt: '[#%\$>]|\:\/\s*$'
-      cursor shape: block
-      disable ALT key bindings: ''
-      disable CTRL key bindings: ''
-      disable SHIFT key bindings: ''
-      open in tab: 1
-      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
-      tab back color: '#000000000000'
-      terminal backspace: auto
-      terminal character encoding: UTF-8
-      terminal emulation: xterm
-      terminal font: Monospace 9
-      terminal scrollback lines: 5000
-      terminal select words: \.:_\/-A-Za-z0-9
-      terminal transparency: 0
-      terminal window hsize: 800
-      terminal window vsize: 600
-      text color: '#cc62cc62cc62'
-      timeout command: 40
-      timeout connect: 40
-      use personal settings: ''
-      use tab back color: ''
-      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
-      visible bell: ''
-    title: mirror-secundario
-    use prepend command: ''
-    use proxy: 0
-    use sudo: ''
-    user: administrador
-    variables: []
   6ed2546c-908f-4754-b1e8-b4e13f656cb9:
     KPX title regexp: .*vm-zn1-gwa0.*
     _is_group: 0
@@ -4197,788 +1535,6 @@ environments:
     use sudo: ''
     user: m2m-bkp
     variables: []
-  6f5e5bdc-63fd-4e88-8d7e-f2e727f7ac0a:
-    KPX title regexp: ''
-    _is_group: 0
-    _protected: 0
-    auth fallback: 1
-    auth type: userpass
-    autoreconnect: ''
-    autossh: ''
-    children: {}
-    cluster: []
-    description: ''
-    embed: 0
-    expect: []
-    favourite: 0
-    infer from KPX where: 3
-    infer user pass from KPX: ''
-    ip: 10.10.1.37
-    local after: []
-    local before: []
-    local connected: []
-    mac: ''
-    macros: []
-    method: SSH
-    name: zn5-worker-e1
-    options: ' -X'
-    parent: 9430ef9e-1b40-4d77-8690-67b7accc1e90
-    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase user: ubuntu
-    port: 22
-    prepend command: ''
-    proxy ip: ''
-    proxy pass: ''
-    proxy port: 8080
-    proxy user: ''
-    public key: ''
-    quote command: ''
-    remove control chars: ''
-    save session logs: ''
-    screenshots: []
-    search pass on KPX: 0
-    send slow: 0
-    send string active: ''
-    send string every: 60
-    send string intro: 1
-    send string txt: ''
-    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
-    session logs amount: 10
-    session logs folder: /home/ptonini/.config/pac/session_logs
-    startup launch: ''
-    startup script: ''
-    startup script name: sample1.pl
-    terminal options:
-      audible bell: ''
-      back color: '#000000000000'
-      bold color: '#cc62cc62cc62'
-      bold color like text: 1
-      command prompt: '[#%\$>]|\:\/\s*$'
-      cursor shape: block
-      disable ALT key bindings: ''
-      disable CTRL key bindings: ''
-      disable SHIFT key bindings: ''
-      open in tab: 1
-      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
-      tab back color: '#000000000000'
-      terminal backspace: auto
-      terminal character encoding: UTF-8
-      terminal emulation: xterm
-      terminal font: Monospace 9
-      terminal scrollback lines: 5000
-      terminal select words: \.:_\/-A-Za-z0-9
-      terminal transparency: 0
-      terminal window hsize: 800
-      terminal window vsize: 600
-      text color: '#cc62cc62cc62'
-      timeout command: 40
-      timeout connect: 40
-      use personal settings: ''
-      use tab back color: ''
-      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
-      visible bell: ''
-    title: zn5-worker-e1
-    use prepend command: ''
-    use proxy: 0
-    use sudo: ''
-    user: hosting
-    variables: []
-  70e29a58-8309-4360-883a-41db2c0a3639:
-    KPX title regexp: ''
-    _is_group: 0
-    _protected: 0
-    auth fallback: 1
-    auth type: userpass
-    autoreconnect: ''
-    autossh: ''
-    children: {}
-    cluster: []
-    description: ''
-    embed: 0
-    expect: []
-    favourite: 0
-    infer from KPX where: 3
-    infer user pass from KPX: ''
-    ip: 10.10.1.22
-    local after: []
-    local before: []
-    local connected: []
-    mac: ''
-    macros: []
-    method: SSH
-    name: zn5-rs2-a
-    options: ' -X'
-    parent: 9430ef9e-1b40-4d77-8690-67b7accc1e90
-    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase user: ubuntu
-    port: 22
-    prepend command: ''
-    proxy ip: ''
-    proxy pass: ''
-    proxy port: 8080
-    proxy user: ''
-    public key: ''
-    quote command: ''
-    remove control chars: ''
-    save session logs: ''
-    screenshots: []
-    search pass on KPX: 0
-    send slow: 0
-    send string active: ''
-    send string every: 60
-    send string intro: 1
-    send string txt: ''
-    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
-    session logs amount: 10
-    session logs folder: /home/ptonini/.config/pac/session_logs
-    startup launch: ''
-    startup script: ''
-    startup script name: sample1.pl
-    terminal options:
-      audible bell: ''
-      back color: '#000000000000'
-      bold color: '#cc62cc62cc62'
-      bold color like text: 1
-      command prompt: '[#%\$>]|\:\/\s*$'
-      cursor shape: block
-      disable ALT key bindings: ''
-      disable CTRL key bindings: ''
-      disable SHIFT key bindings: ''
-      open in tab: 1
-      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
-      tab back color: '#000000000000'
-      terminal backspace: auto
-      terminal character encoding: UTF-8
-      terminal emulation: xterm
-      terminal font: Monospace 9
-      terminal scrollback lines: 5000
-      terminal select words: \.:_\/-A-Za-z0-9
-      terminal transparency: 0
-      terminal window hsize: 800
-      terminal window vsize: 600
-      text color: '#cc62cc62cc62'
-      timeout command: 40
-      timeout connect: 40
-      use personal settings: ''
-      use tab back color: ''
-      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
-      visible bell: ''
-    title: zn5-rs2-a
-    use prepend command: ''
-    use proxy: 0
-    use sudo: ''
-    user: hosting
-    variables: []
-  72178912-e369-4b1d-889c-0f38185887d2:
-    KPX title regexp: ''
-    _is_group: 0
-    _protected: 0
-    auth fallback: 1
-    auth type: userpass
-    autoreconnect: ''
-    autossh: ''
-    children: {}
-    cluster: []
-    description: ''
-    embed: 0
-    expect: []
-    favourite: 0
-    infer from KPX where: 3
-    infer user pass from KPX: ''
-    ip: 10.10.1.61
-    local after: []
-    local before: []
-    local connected: []
-    mac: ''
-    macros: []
-    method: SSH
-    name: zn5-worker-s6
-    options: ' -X'
-    parent: 9430ef9e-1b40-4d77-8690-67b7accc1e90
-    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase user: ubuntu
-    port: 22
-    prepend command: ''
-    proxy ip: ''
-    proxy pass: ''
-    proxy port: 8080
-    proxy user: ''
-    public key: ''
-    quote command: ''
-    remove control chars: ''
-    save session logs: ''
-    screenshots: []
-    search pass on KPX: 0
-    send slow: 0
-    send string active: ''
-    send string every: 60
-    send string intro: 1
-    send string txt: ''
-    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
-    session logs amount: 10
-    session logs folder: /home/ptonini/.config/pac/session_logs
-    startup launch: ''
-    startup script: ''
-    startup script name: sample1.pl
-    terminal options:
-      audible bell: ''
-      back color: '#000000000000'
-      bold color: '#cc62cc62cc62'
-      bold color like text: 1
-      command prompt: '[#%\$>]|\:\/\s*$'
-      cursor shape: block
-      disable ALT key bindings: ''
-      disable CTRL key bindings: ''
-      disable SHIFT key bindings: ''
-      open in tab: 1
-      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
-      tab back color: '#000000000000'
-      terminal backspace: auto
-      terminal character encoding: UTF-8
-      terminal emulation: xterm
-      terminal font: Monospace 9
-      terminal scrollback lines: 5000
-      terminal select words: \.:_\/-A-Za-z0-9
-      terminal transparency: 0
-      terminal window hsize: 800
-      terminal window vsize: 600
-      text color: '#cc62cc62cc62'
-      timeout command: 40
-      timeout connect: 40
-      use personal settings: ''
-      use tab back color: ''
-      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
-      visible bell: ''
-    title: zn5-worker-s6
-    use prepend command: ''
-    use proxy: 0
-    use sudo: ''
-    user: hosting
-    variables: []
-  7274f579-5889-4d1d-b4d6-f36cc8a4bd3d:
-    KPX title regexp: .*mirror-primario.*
-    _is_group: 0
-    _protected: 0
-    auth fallback: 1
-    auth type: userpass
-    autoreconnect: ''
-    autossh: ''
-    cluster: []
-    description: Connection with 'mirror-primario'
-    embed: 1
-    expect: []
-    favourite: 0
-    infer from KPX where: 3
-    infer user pass from KPX: ''
-    ip: 200.253.5.151
-    local after: []
-    local before: []
-    local connected: []
-    mac: ''
-    macros: []
-    method: RDP (rdesktop)
-    name: mirror-primario
-    options: ' -5 -a 24 -r sound:local -r clipboard:PRIMARYCLIPBOARD'
-    parent: 13d34e68-2420-498e-b276-1e7e6c48b676
-    pass: 53616c7465645f5f31323334353637385b9d29debc821963e2b6640c0a55f382
-    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase user: ''
-    port: 3389
-    prepend command: ''
-    proxy ip: ''
-    proxy pass: ''
-    proxy port: 8080
-    proxy user: ''
-    public key: ''
-    quote command: ''
-    remove control chars: ''
-    save session logs: ''
-    screenshots: []
-    search pass on KPX: 0
-    send slow: 0
-    send string active: ''
-    send string every: 60
-    send string intro: 1
-    send string txt: ''
-    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
-    session logs amount: 10
-    session logs folder: /home/ptonini/.config/pac/session_logs
-    startup launch: ''
-    startup script: ''
-    startup script name: sample1.pl
-    terminal options:
-      audible bell: ''
-      back color: '#000000000000'
-      bold color: '#cc62cc62cc62'
-      bold color like text: 1
-      command prompt: '[#%\$>]|\:\/\s*$'
-      cursor shape: block
-      disable ALT key bindings: ''
-      disable CTRL key bindings: ''
-      disable SHIFT key bindings: ''
-      open in tab: 1
-      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
-      tab back color: '#000000000000'
-      terminal backspace: auto
-      terminal character encoding: UTF-8
-      terminal emulation: xterm
-      terminal font: Monospace 9
-      terminal scrollback lines: 5000
-      terminal select words: \.:_\/-A-Za-z0-9
-      terminal transparency: 0
-      terminal window hsize: 800
-      terminal window vsize: 600
-      text color: '#cc62cc62cc62'
-      timeout command: 40
-      timeout connect: 40
-      use personal settings: ''
-      use tab back color: ''
-      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
-      visible bell: ''
-    title: mirror-primario
-    use prepend command: ''
-    use proxy: 0
-    use sudo: ''
-    user: administrador
-    variables: []
-  73b131a8-19e9-4c7f-a69c-0ce7aec46934:
-    KPX title regexp: ''
-    _is_group: 0
-    _protected: 0
-    auth fallback: 1
-    auth type: userpass
-    autoreconnect: ''
-    autossh: ''
-    children: {}
-    cluster: []
-    description: ''
-    embed: 0
-    expect: []
-    favourite: 0
-    infer from KPX where: 3
-    infer user pass from KPX: ''
-    ip: 10.10.2.48
-    local after: []
-    local before: []
-    local connected: []
-    mac: ''
-    macros: []
-    method: SSH
-    name: zn4-gwa3
-    options: ' -X'
-    parent: f1f6cd4e-1e12-451c-871c-fa746b03bfc4
-    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase user: ubuntu
-    port: 22
-    prepend command: ''
-    proxy ip: ''
-    proxy pass: ''
-    proxy port: 8080
-    proxy user: ''
-    public key: ''
-    quote command: ''
-    remove control chars: ''
-    save session logs: ''
-    screenshots: []
-    search pass on KPX: 0
-    send slow: 0
-    send string active: ''
-    send string every: 60
-    send string intro: 1
-    send string txt: ''
-    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
-    session logs amount: 10
-    session logs folder: /home/ptonini/.config/pac/session_logs
-    startup launch: ''
-    startup script: ''
-    startup script name: sample1.pl
-    terminal options:
-      audible bell: ''
-      back color: '#000000000000'
-      bold color: '#cc62cc62cc62'
-      bold color like text: 1
-      command prompt: '[#%\$>]|\:\/\s*$'
-      cursor shape: block
-      disable ALT key bindings: ''
-      disable CTRL key bindings: ''
-      disable SHIFT key bindings: ''
-      open in tab: 1
-      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
-      tab back color: '#000000000000'
-      terminal backspace: auto
-      terminal character encoding: UTF-8
-      terminal emulation: xterm
-      terminal font: Monospace 9
-      terminal scrollback lines: 5000
-      terminal select words: \.:_\/-A-Za-z0-9
-      terminal transparency: 0
-      terminal window hsize: 800
-      terminal window vsize: 600
-      text color: '#cc62cc62cc62'
-      timeout command: 40
-      timeout connect: 40
-      use personal settings: ''
-      use tab back color: ''
-      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
-      visible bell: ''
-    title: zn4-gwa3
-    use prepend command: ''
-    use proxy: 0
-    use sudo: ''
-    user: hosting
-    variables: []
-  73b9dd05-377c-4a9e-9a3d-abc5beca650a:
-    KPX title regexp: ''
-    _is_group: 0
-    _protected: 0
-    auth fallback: 1
-    auth type: userpass
-    autoreconnect: ''
-    autossh: ''
-    children: {}
-    cluster: []
-    description: ''
-    embed: 0
-    expect: []
-    favourite: 0
-    infer from KPX where: 3
-    infer user pass from KPX: ''
-    ip: 10.10.1.79
-    local after: []
-    local before: []
-    local connected: []
-    mac: ''
-    macros: []
-    method: SSH
-    name: sso-osm-d0
-    options: ' -X'
-    parent: d6db3705-3345-41bb-b519-1d0e8cd3e6b6
-    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase user: ubuntu
-    port: 22
-    prepend command: ''
-    proxy ip: ''
-    proxy pass: ''
-    proxy port: 8080
-    proxy user: ''
-    public key: ''
-    quote command: ''
-    remove control chars: ''
-    save session logs: ''
-    screenshots: []
-    search pass on KPX: 0
-    send slow: 0
-    send string active: ''
-    send string every: 60
-    send string intro: 1
-    send string txt: ''
-    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
-    session logs amount: 10
-    session logs folder: /home/ptonini/.config/pac/session_logs
-    startup launch: ''
-    startup script: ''
-    startup script name: sample1.pl
-    terminal options:
-      audible bell: ''
-      back color: '#000000000000'
-      bold color: '#cc62cc62cc62'
-      bold color like text: 1
-      command prompt: '[#%\$>]|\:\/\s*$'
-      cursor shape: block
-      disable ALT key bindings: ''
-      disable CTRL key bindings: ''
-      disable SHIFT key bindings: ''
-      open in tab: 1
-      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
-      tab back color: '#000000000000'
-      terminal backspace: auto
-      terminal character encoding: UTF-8
-      terminal emulation: xterm
-      terminal font: Monospace 9
-      terminal scrollback lines: 5000
-      terminal select words: \.:_\/-A-Za-z0-9
-      terminal transparency: 0
-      terminal window hsize: 800
-      terminal window vsize: 600
-      text color: '#cc62cc62cc62'
-      timeout command: 40
-      timeout connect: 40
-      use personal settings: ''
-      use tab back color: ''
-      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
-      visible bell: ''
-    title: sso-osm-d0
-    use prepend command: ''
-    use proxy: 0
-    use sudo: ''
-    user: hosting
-    variables: []
-  73c9973c-78c7-46c5-bb0d-070529f17c66:
-    KPX title regexp: ''
-    _is_group: 0
-    _protected: 0
-    auth fallback: 1
-    auth type: userpass
-    autoreconnect: ''
-    autossh: ''
-    children: {}
-    cluster: []
-    description: ''
-    embed: 0
-    expect: []
-    favourite: 0
-    infer from KPX where: 3
-    infer user pass from KPX: ''
-    ip: 10.10.2.76
-    local after: []
-    local before: []
-    local connected: []
-    mac: ''
-    macros: []
-    method: SSH
-    name: zn4-redis1
-    options: ' -X'
-    parent: f1f6cd4e-1e12-451c-871c-fa746b03bfc4
-    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase user: ubuntu
-    port: 22
-    prepend command: ''
-    proxy ip: ''
-    proxy pass: ''
-    proxy port: 8080
-    proxy user: ''
-    public key: ''
-    quote command: ''
-    remove control chars: ''
-    save session logs: ''
-    screenshots: []
-    search pass on KPX: 0
-    send slow: 0
-    send string active: ''
-    send string every: 60
-    send string intro: 1
-    send string txt: ''
-    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
-    session logs amount: 10
-    session logs folder: /home/ptonini/.config/pac/session_logs
-    startup launch: ''
-    startup script: ''
-    startup script name: sample1.pl
-    terminal options:
-      audible bell: ''
-      back color: '#000000000000'
-      bold color: '#cc62cc62cc62'
-      bold color like text: 1
-      command prompt: '[#%\$>]|\:\/\s*$'
-      cursor shape: block
-      disable ALT key bindings: ''
-      disable CTRL key bindings: ''
-      disable SHIFT key bindings: ''
-      open in tab: 1
-      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
-      tab back color: '#000000000000'
-      terminal backspace: auto
-      terminal character encoding: UTF-8
-      terminal emulation: xterm
-      terminal font: Monospace 9
-      terminal scrollback lines: 5000
-      terminal select words: \.:_\/-A-Za-z0-9
-      terminal transparency: 0
-      terminal window hsize: 800
-      terminal window vsize: 600
-      text color: '#cc62cc62cc62'
-      timeout command: 40
-      timeout connect: 40
-      use personal settings: ''
-      use tab back color: ''
-      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
-      visible bell: ''
-    title: zn4-redis1
-    use prepend command: ''
-    use proxy: 0
-    use sudo: ''
-    user: hosting
-    variables: []
-  742a0649-14cc-437c-a37c-e9a75dd06edf:
-    KPX title regexp: ''
-    _is_group: 0
-    _protected: 0
-    auth fallback: 1
-    auth type: userpass
-    autoreconnect: ''
-    autossh: ''
-    children: {}
-    cluster: []
-    description: ''
-    embed: 0
-    expect: []
-    favourite: 0
-    infer from KPX where: 3
-    infer user pass from KPX: ''
-    ip: 10.10.2.64
-    local after: []
-    local before: []
-    local connected: []
-    mac: ''
-    macros: []
-    method: SSH
-    name: zn4-worker-int
-    options: ' -X'
-    parent: f1f6cd4e-1e12-451c-871c-fa746b03bfc4
-    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase user: ubuntu
-    port: 22
-    prepend command: ''
-    proxy ip: ''
-    proxy pass: ''
-    proxy port: 8080
-    proxy user: ''
-    public key: ''
-    quote command: ''
-    remove control chars: ''
-    save session logs: ''
-    screenshots: []
-    search pass on KPX: 0
-    send slow: 0
-    send string active: ''
-    send string every: 60
-    send string intro: 1
-    send string txt: ''
-    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
-    session logs amount: 10
-    session logs folder: /home/ptonini/.config/pac/session_logs
-    startup launch: ''
-    startup script: ''
-    startup script name: sample1.pl
-    terminal options:
-      audible bell: ''
-      back color: '#000000000000'
-      bold color: '#cc62cc62cc62'
-      bold color like text: 1
-      command prompt: '[#%\$>]|\:\/\s*$'
-      cursor shape: block
-      disable ALT key bindings: ''
-      disable CTRL key bindings: ''
-      disable SHIFT key bindings: ''
-      open in tab: 1
-      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
-      tab back color: '#000000000000'
-      terminal backspace: auto
-      terminal character encoding: UTF-8
-      terminal emulation: xterm
-      terminal font: Monospace 9
-      terminal scrollback lines: 5000
-      terminal select words: \.:_\/-A-Za-z0-9
-      terminal transparency: 0
-      terminal window hsize: 800
-      terminal window vsize: 600
-      text color: '#cc62cc62cc62'
-      timeout command: 40
-      timeout connect: 40
-      use personal settings: ''
-      use tab back color: ''
-      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
-      visible bell: ''
-    title: zn4-worker-int
-    use prepend command: ''
-    use proxy: 0
-    use sudo: ''
-    user: hosting
-    variables: []
-  75752dd6-79e2-4581-8758-51e7da00c28a:
-    KPX title regexp: ''
-    _is_group: 0
-    _protected: 0
-    auth fallback: 1
-    auth type: userpass
-    autoreconnect: ''
-    autossh: ''
-    children: {}
-    cluster: []
-    description: ''
-    embed: 0
-    expect: []
-    favourite: 0
-    infer from KPX where: 3
-    infer user pass from KPX: ''
-    ip: 10.10.1.71
-    local after: []
-    local before: []
-    local connected: []
-    mac: ''
-    macros: []
-    method: SSH
-    name: sso-monitor
-    options: ' -X'
-    parent: d6db3705-3345-41bb-b519-1d0e8cd3e6b6
-    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase user: ubuntu
-    port: 22
-    prepend command: ''
-    proxy ip: ''
-    proxy pass: ''
-    proxy port: 8080
-    proxy user: ''
-    public key: ''
-    quote command: ''
-    remove control chars: ''
-    save session logs: ''
-    screenshots: []
-    search pass on KPX: 0
-    send slow: 0
-    send string active: ''
-    send string every: 60
-    send string intro: 1
-    send string txt: ''
-    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
-    session logs amount: 10
-    session logs folder: /home/ptonini/.config/pac/session_logs
-    startup launch: ''
-    startup script: ''
-    startup script name: sample1.pl
-    terminal options:
-      audible bell: ''
-      back color: '#000000000000'
-      bold color: '#cc62cc62cc62'
-      bold color like text: 1
-      command prompt: '[#%\$>]|\:\/\s*$'
-      cursor shape: block
-      disable ALT key bindings: ''
-      disable CTRL key bindings: ''
-      disable SHIFT key bindings: ''
-      open in tab: 1
-      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
-      tab back color: '#000000000000'
-      terminal backspace: auto
-      terminal character encoding: UTF-8
-      terminal emulation: xterm
-      terminal font: Monospace 9
-      terminal scrollback lines: 5000
-      terminal select words: \.:_\/-A-Za-z0-9
-      terminal transparency: 0
-      terminal window hsize: 800
-      terminal window vsize: 600
-      text color: '#cc62cc62cc62'
-      timeout command: 40
-      timeout connect: 40
-      use personal settings: ''
-      use tab back color: ''
-      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
-      visible bell: ''
-    title: sso-monitor
-    use prepend command: ''
-    use proxy: 0
-    use sudo: ''
-    user: hosting
-    variables: []
   7b5f2e59-4c1f-4bd3-9fd7-8749a991f976:
     _is_group: 1
     _protected: 0
@@ -4998,180 +1554,6 @@ environments:
     name: Mirrors
     parent: 051a3f61-415e-4dc0-a7e5-7b8f9cdf47e0
     screenshots: []
-  7bd851d6-542d-483e-a3a6-c60b2326836c:
-    KPX title regexp: ''
-    _is_group: 0
-    _protected: 0
-    auth fallback: 1
-    auth type: userpass
-    autoreconnect: ''
-    autossh: ''
-    children: {}
-    cluster: []
-    description: ''
-    embed: 0
-    expect: []
-    favourite: 0
-    infer from KPX where: 3
-    infer user pass from KPX: ''
-    ip: 10.10.1.149
-    local after: []
-    local before: []
-    local connected: []
-    mac: ''
-    macros: []
-    method: SSH
-    name: zn5-gwa6
-    options: ' -X'
-    parent: 9430ef9e-1b40-4d77-8690-67b7accc1e90
-    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase user: ubuntu
-    port: 22
-    prepend command: ''
-    proxy ip: ''
-    proxy pass: ''
-    proxy port: 8080
-    proxy user: ''
-    public key: ''
-    quote command: ''
-    remove control chars: ''
-    save session logs: ''
-    screenshots: []
-    search pass on KPX: 0
-    send slow: 0
-    send string active: ''
-    send string every: 60
-    send string intro: 1
-    send string txt: ''
-    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
-    session logs amount: 10
-    session logs folder: /home/ptonini/.config/pac/session_logs
-    startup launch: ''
-    startup script: ''
-    startup script name: sample1.pl
-    terminal options:
-      audible bell: ''
-      back color: '#000000000000'
-      bold color: '#cc62cc62cc62'
-      bold color like text: 1
-      command prompt: '[#%\$>]|\:\/\s*$'
-      cursor shape: block
-      disable ALT key bindings: ''
-      disable CTRL key bindings: ''
-      disable SHIFT key bindings: ''
-      open in tab: 1
-      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
-      tab back color: '#000000000000'
-      terminal backspace: auto
-      terminal character encoding: UTF-8
-      terminal emulation: xterm
-      terminal font: Monospace 9
-      terminal scrollback lines: 5000
-      terminal select words: \.:_\/-A-Za-z0-9
-      terminal transparency: 0
-      terminal window hsize: 800
-      terminal window vsize: 600
-      text color: '#cc62cc62cc62'
-      timeout command: 40
-      timeout connect: 40
-      use personal settings: ''
-      use tab back color: ''
-      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
-      visible bell: ''
-    title: zn5-gwa6
-    use prepend command: ''
-    use proxy: 0
-    use sudo: ''
-    user: hosting
-    variables: []
-  808f5436-20cc-4129-a9c1-7d73c61f5d89:
-    KPX title regexp: ''
-    _is_group: 0
-    _protected: 0
-    auth fallback: 1
-    auth type: userpass
-    autoreconnect: ''
-    autossh: ''
-    children: {}
-    cluster: []
-    description: ''
-    embed: 0
-    expect: []
-    favourite: 0
-    infer from KPX where: 3
-    infer user pass from KPX: ''
-    ip: 10.10.1.41
-    local after: []
-    local before: []
-    local connected: []
-    mac: ''
-    macros: []
-    method: SSH
-    name: zn5-worker-s2
-    options: ' -X'
-    parent: 9430ef9e-1b40-4d77-8690-67b7accc1e90
-    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase user: ubuntu
-    port: 22
-    prepend command: ''
-    proxy ip: ''
-    proxy pass: ''
-    proxy port: 8080
-    proxy user: ''
-    public key: ''
-    quote command: ''
-    remove control chars: ''
-    save session logs: ''
-    screenshots: []
-    search pass on KPX: 0
-    send slow: 0
-    send string active: ''
-    send string every: 60
-    send string intro: 1
-    send string txt: ''
-    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
-    session logs amount: 10
-    session logs folder: /home/ptonini/.config/pac/session_logs
-    startup launch: ''
-    startup script: ''
-    startup script name: sample1.pl
-    terminal options:
-      audible bell: ''
-      back color: '#000000000000'
-      bold color: '#cc62cc62cc62'
-      bold color like text: 1
-      command prompt: '[#%\$>]|\:\/\s*$'
-      cursor shape: block
-      disable ALT key bindings: ''
-      disable CTRL key bindings: ''
-      disable SHIFT key bindings: ''
-      open in tab: 1
-      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
-      tab back color: '#000000000000'
-      terminal backspace: auto
-      terminal character encoding: UTF-8
-      terminal emulation: xterm
-      terminal font: Monospace 9
-      terminal scrollback lines: 5000
-      terminal select words: \.:_\/-A-Za-z0-9
-      terminal transparency: 0
-      terminal window hsize: 800
-      terminal window vsize: 600
-      text color: '#cc62cc62cc62'
-      timeout command: 40
-      timeout connect: 40
-      use personal settings: ''
-      use tab back color: ''
-      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
-      visible bell: ''
-    title: zn5-worker-s2
-    use prepend command: ''
-    use proxy: 0
-    use sudo: ''
-    user: hosting
-    variables: []
   80b33641-7f0b-4c91-ad70-7184505a99af:
     KPX title regexp: .*vm-mirror_brt_sec.*
     _is_group: 0
@@ -5346,93 +1728,6 @@ environments:
     use sudo: ''
     user: administrador
     variables: []
-  8258e55b-dba4-4f0f-a7d2-2fb5f3fcf9a7:
-    KPX title regexp: ''
-    _is_group: 0
-    _protected: 0
-    auth fallback: 1
-    auth type: userpass
-    autoreconnect: ''
-    autossh: ''
-    children: {}
-    cluster: []
-    description: ''
-    embed: 0
-    expect: []
-    favourite: 0
-    infer from KPX where: 3
-    infer user pass from KPX: ''
-    ip: 10.10.1.46
-    local after: []
-    local before: []
-    local connected: []
-    mac: ''
-    macros: []
-    method: SSH
-    name: zn5-worker-s3
-    options: ' -X'
-    parent: 9430ef9e-1b40-4d77-8690-67b7accc1e90
-    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase user: ubuntu
-    port: 22
-    prepend command: ''
-    proxy ip: ''
-    proxy pass: ''
-    proxy port: 8080
-    proxy user: ''
-    public key: ''
-    quote command: ''
-    remove control chars: ''
-    save session logs: ''
-    screenshots: []
-    search pass on KPX: 0
-    send slow: 0
-    send string active: ''
-    send string every: 60
-    send string intro: 1
-    send string txt: ''
-    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
-    session logs amount: 10
-    session logs folder: /home/ptonini/.config/pac/session_logs
-    startup launch: ''
-    startup script: ''
-    startup script name: sample1.pl
-    terminal options:
-      audible bell: ''
-      back color: '#000000000000'
-      bold color: '#cc62cc62cc62'
-      bold color like text: 1
-      command prompt: '[#%\$>]|\:\/\s*$'
-      cursor shape: block
-      disable ALT key bindings: ''
-      disable CTRL key bindings: ''
-      disable SHIFT key bindings: ''
-      open in tab: 1
-      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
-      tab back color: '#000000000000'
-      terminal backspace: auto
-      terminal character encoding: UTF-8
-      terminal emulation: xterm
-      terminal font: Monospace 9
-      terminal scrollback lines: 5000
-      terminal select words: \.:_\/-A-Za-z0-9
-      terminal transparency: 0
-      terminal window hsize: 800
-      terminal window vsize: 600
-      text color: '#cc62cc62cc62'
-      timeout command: 40
-      timeout connect: 40
-      use personal settings: ''
-      use tab back color: ''
-      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
-      visible bell: ''
-    title: zn5-worker-s3
-    use prepend command: ''
-    use proxy: 0
-    use sudo: ''
-    user: hosting
-    variables: []
   827f2d26-76d4-4d86-a73e-d0c422457baa:
     KPX title regexp: .*nagios.*
     _is_group: 0
@@ -5518,93 +1813,6 @@ environments:
     use proxy: 0
     use sudo: ''
     user: root
-    variables: []
-  8c333249-d670-4431-9925-72346b6cec3e:
-    KPX title regexp: ''
-    _is_group: 0
-    _protected: 0
-    auth fallback: 1
-    auth type: userpass
-    autoreconnect: ''
-    autossh: ''
-    children: {}
-    cluster: []
-    description: ''
-    embed: 0
-    expect: []
-    favourite: 0
-    infer from KPX where: 3
-    infer user pass from KPX: ''
-    ip: 10.10.2.230
-    local after: []
-    local before: []
-    local connected: []
-    mac: ''
-    macros: []
-    method: SSH
-    name: zn4-gwa2
-    options: ' -X'
-    parent: f1f6cd4e-1e12-451c-871c-fa746b03bfc4
-    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase user: ubuntu
-    port: 22
-    prepend command: ''
-    proxy ip: ''
-    proxy pass: ''
-    proxy port: 8080
-    proxy user: ''
-    public key: ''
-    quote command: ''
-    remove control chars: ''
-    save session logs: ''
-    screenshots: []
-    search pass on KPX: 0
-    send slow: 0
-    send string active: ''
-    send string every: 60
-    send string intro: 1
-    send string txt: ''
-    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
-    session logs amount: 10
-    session logs folder: /home/ptonini/.config/pac/session_logs
-    startup launch: ''
-    startup script: ''
-    startup script name: sample1.pl
-    terminal options:
-      audible bell: ''
-      back color: '#000000000000'
-      bold color: '#cc62cc62cc62'
-      bold color like text: 1
-      command prompt: '[#%\$>]|\:\/\s*$'
-      cursor shape: block
-      disable ALT key bindings: ''
-      disable CTRL key bindings: ''
-      disable SHIFT key bindings: ''
-      open in tab: 1
-      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
-      tab back color: '#000000000000'
-      terminal backspace: auto
-      terminal character encoding: UTF-8
-      terminal emulation: xterm
-      terminal font: Monospace 9
-      terminal scrollback lines: 5000
-      terminal select words: \.:_\/-A-Za-z0-9
-      terminal transparency: 0
-      terminal window hsize: 800
-      terminal window vsize: 600
-      text color: '#cc62cc62cc62'
-      timeout command: 40
-      timeout connect: 40
-      use personal settings: ''
-      use tab back color: ''
-      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
-      visible bell: ''
-    title: zn4-gwa2
-    use prepend command: ''
-    use proxy: 0
-    use sudo: ''
-    user: hosting
     variables: []
   8cbd7a08-7108-48c8-a336-de646a7ed7e2:
     KPX title regexp: .*vm-209-svc.*
@@ -5867,93 +2075,6 @@ environments:
     use sudo: ''
     user: root
     variables: []
-  8d91ff9b-f777-450a-b9ce-0c7a80c951b1:
-    KPX title regexp: ''
-    _is_group: 0
-    _protected: 0
-    auth fallback: 1
-    auth type: userpass
-    autoreconnect: ''
-    autossh: ''
-    children: {}
-    cluster: []
-    description: ''
-    embed: 0
-    expect: []
-    favourite: 0
-    infer from KPX where: 3
-    infer user pass from KPX: ''
-    ip: 10.10.1.11
-    local after: []
-    local before: []
-    local connected: []
-    mac: ''
-    macros: []
-    method: SSH
-    name: zn5-rabbit-av0
-    options: ' -X -L 8888:localhost:15672'
-    parent: 9430ef9e-1b40-4d77-8690-67b7accc1e90
-    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase user: ubuntu
-    port: 22
-    prepend command: ''
-    proxy ip: ''
-    proxy pass: ''
-    proxy port: 8080
-    proxy user: ''
-    public key: ''
-    quote command: ''
-    remove control chars: ''
-    save session logs: ''
-    screenshots: []
-    search pass on KPX: 0
-    send slow: 0
-    send string active: ''
-    send string every: 60
-    send string intro: 1
-    send string txt: ''
-    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
-    session logs amount: 10
-    session logs folder: /home/ptonini/.config/pac/session_logs
-    startup launch: ''
-    startup script: ''
-    startup script name: sample1.pl
-    terminal options:
-      audible bell: ''
-      back color: '#000000000000'
-      bold color: '#cc62cc62cc62'
-      bold color like text: 1
-      command prompt: '[#%\$>]|\:\/\s*$'
-      cursor shape: block
-      disable ALT key bindings: ''
-      disable CTRL key bindings: ''
-      disable SHIFT key bindings: ''
-      open in tab: 1
-      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
-      tab back color: '#000000000000'
-      terminal backspace: auto
-      terminal character encoding: UTF-8
-      terminal emulation: xterm
-      terminal font: Monospace 9
-      terminal scrollback lines: 5000
-      terminal select words: \.:_\/-A-Za-z0-9
-      terminal transparency: 0
-      terminal window hsize: 800
-      terminal window vsize: 600
-      text color: '#cc62cc62cc62'
-      timeout command: 40
-      timeout connect: 40
-      use personal settings: ''
-      use tab back color: ''
-      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
-      visible bell: ''
-    title: zn5-rabbit-av0
-    use prepend command: ''
-    use proxy: 0
-    use sudo: ''
-    user: hosting
-    variables: []
   91496ab3-d954-49d3-9327-d225e9e337fa:
     KPX title regexp: .*vm-mirror_brt_sec.*
     _is_group: 0
@@ -6041,140 +2162,6 @@ environments:
     use sudo: ''
     user: pedro.tonini
     variables: []
-  93290b0b-1a18-42d2-9653-11a3c22b9420:
-    KPX title regexp: ''
-    _is_group: 0
-    _protected: 0
-    auth fallback: 1
-    auth type: userpass
-    autoreconnect: ''
-    autossh: ''
-    children: {}
-    cluster: []
-    description: ''
-    embed: 0
-    expect: []
-    favourite: 0
-    infer from KPX where: 3
-    infer user pass from KPX: ''
-    ip: 10.10.1.64
-    local after: []
-    local before: []
-    local connected: []
-    mac: ''
-    macros: []
-    method: SSH
-    name: zn5-worker-int
-    options: ' -X'
-    parent: 9430ef9e-1b40-4d77-8690-67b7accc1e90
-    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase user: ubuntu
-    port: 22
-    prepend command: ''
-    proxy ip: ''
-    proxy pass: ''
-    proxy port: 8080
-    proxy user: ''
-    public key: ''
-    quote command: ''
-    remove control chars: ''
-    save session logs: ''
-    screenshots: []
-    search pass on KPX: 0
-    send slow: 0
-    send string active: ''
-    send string every: 60
-    send string intro: 1
-    send string txt: ''
-    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
-    session logs amount: 10
-    session logs folder: /home/ptonini/.config/pac/session_logs
-    startup launch: ''
-    startup script: ''
-    startup script name: sample1.pl
-    terminal options:
-      audible bell: ''
-      back color: '#000000000000'
-      bold color: '#cc62cc62cc62'
-      bold color like text: 1
-      command prompt: '[#%\$>]|\:\/\s*$'
-      cursor shape: block
-      disable ALT key bindings: ''
-      disable CTRL key bindings: ''
-      disable SHIFT key bindings: ''
-      open in tab: 1
-      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
-      tab back color: '#000000000000'
-      terminal backspace: auto
-      terminal character encoding: UTF-8
-      terminal emulation: xterm
-      terminal font: Monospace 9
-      terminal scrollback lines: 5000
-      terminal select words: \.:_\/-A-Za-z0-9
-      terminal transparency: 0
-      terminal window hsize: 800
-      terminal window vsize: 600
-      text color: '#cc62cc62cc62'
-      timeout command: 40
-      timeout connect: 40
-      use personal settings: ''
-      use tab back color: ''
-      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
-      visible bell: ''
-    title: zn5-worker-int
-    use prepend command: ''
-    use proxy: 0
-    use sudo: ''
-    user: hosting
-    variables: []
-  9430ef9e-1b40-4d77-8690-67b7accc1e90:
-    _is_group: 1
-    _protected: 0
-    children:
-      0472a4fb-e29f-4881-84e6-a6115f7e05d4: 1
-      0eb8aee8-c25a-4112-92c2-8d864fb12487: 1
-      10b6ae50-814a-4378-ac81-1e7b4179adcc: 1
-      1368d799-ff41-4cd1-bcc2-0158552500d6: 1
-      145fc8d5-12fd-4e7c-ac08-d8663ce11e4c: 1
-      1b5cb76e-f5ff-4709-ad87-5515479fbc6d: 1
-      1daafd96-a221-466e-8b1a-94a7f5aa365f: 1
-      28bb98c0-4011-4f0b-a494-93a8e337bcff: 1
-      308478dc-1ba5-49df-8538-05d7226dd994: 1
-      45b56aa1-ea5f-4248-bf90-b3458e540335: 1
-      52baae48-185c-40c2-b816-5cc26375d5b9: 1
-      54898908-bf87-48cc-9aed-2d7fa743fed6: 1
-      58562b6f-70bc-4198-8320-a7fbe9913ff7: 1
-      5a53d554-88e5-45f3-9c98-3388d5df51db: 1
-      67e4737b-2641-4968-90cc-842c2dca0a60: 1
-      68b15b2b-ebcd-42f2-a396-81dd996cc194: 1
-      68d12e04-f229-421f-9b20-67ca58ab0989: 1
-      6f5e5bdc-63fd-4e88-8d7e-f2e727f7ac0a: 1
-      70e29a58-8309-4360-883a-41db2c0a3639: 1
-      72178912-e369-4b1d-889c-0f38185887d2: 1
-      7bd851d6-542d-483e-a3a6-c60b2326836c: 1
-      808f5436-20cc-4129-a9c1-7d73c61f5d89: 1
-      8258e55b-dba4-4f0f-a7d2-2fb5f3fcf9a7: 1
-      8d91ff9b-f777-450a-b9ce-0c7a80c951b1: 1
-      93290b0b-1a18-42d2-9653-11a3c22b9420: 1
-      9abe0893-3a75-473d-b840-c9eed2f62c73: 1
-      9ce6392a-ca32-42f9-938c-5a829cae4b87: 1
-      9f26de5e-75b8-418e-8a9d-2c44399370de: 1
-      a30aed33-9c2f-49b4-ab37-98ae7748e47c: 1
-      a4cd697e-21ed-4b6b-a626-1535841fb786: 1
-      a62e822a-26b5-47a3-a808-c28554f33565: 1
-      b1329627-e4b9-4c09-94d7-ac9485860f18: 1
-      b3ea2d74-8c75-45aa-9cfb-036b64dccf0d: 1
-      b774f1f3-9d29-4f24-a640-d5b080d04fc5: 1
-      bea5e0ea-f58a-4b3c-afa6-9e076610396c: 1
-      c625659d-6ec4-45f5-93ca-9d90d415f923: 1
-      ddb6ee3b-cde8-43bd-8226-14bb4727f0c2: 1
-      e217ef7c-c2bb-4c16-b773-bbb4b082f319: 1
-      ed020d0d-7c96-4223-bee8-ec01641d7c3d: 1
-    description: Connection group 'Zona 5'
-    name: Zona 5
-    parent: 04a32142-fd55-4220-8d43-f43966a1ee1c
-    screenshots: []
   96a96e8e-1148-48c1-982f-d598da22b8be:
     KPX title regexp: .*vm-mirror_brt_sec.*
     _is_group: 0
@@ -6436,22 +2423,12 @@ environments:
     use sudo: ''
     user: administrador
     variables: []
-  999d7a85-aaf1-4017-b821-29af9c6f2a9d:
-    _is_group: 1
-    _protected: 0
-    children:
-      8d4f634d-d852-4c6f-9ee8-9dcf6d0412fb: 1
-      e59c4da5-c1b1-4b7d-bad1-56c27c0c8295: 1
-    description: Connection group 'rackspace'
-    name: Rackspace
-    parent: __PAC__ROOT__
-    screenshots: []
-  9abe0893-3a75-473d-b840-c9eed2f62c73:
+  993db650-3d2e-421c-b6bb-df8052776344:
     KPX title regexp: ''
     _is_group: 0
     _protected: 0
-    auth fallback: 1
-    auth type: userpass
+    auth fallback: 0
+    auth type: publickey
     autoreconnect: ''
     autossh: ''
     children: {}
@@ -6462,26 +2439,26 @@ environments:
     favourite: 0
     infer from KPX where: 3
     infer user pass from KPX: ''
-    ip: 10.10.1.17
+    ip: 10.10.2.26
     local after: []
     local before: []
     local connected: []
     mac: ''
     macros: []
     method: SSH
-    name: zn5-rs0-d0
-    options: ' -X'
-    parent: 9430ef9e-1b40-4d77-8690-67b7accc1e90
+    name: 00_test
+    options: ''
+    parent: f1f6cd4e-1e12-451c-871c-fa746b03bfc4
     pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
     passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase user: ubuntu
+    passphrase user: hosting
     port: 22
     prepend command: ''
     proxy ip: ''
     proxy pass: ''
     proxy port: 8080
     proxy user: ''
-    public key: ''
+    public key: /home/ptonini/.ssh/m2m-hosting
     quote command: ''
     remove control chars: ''
     save session logs: ''
@@ -6527,12 +2504,22 @@ environments:
       use tab back color: ''
       username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
       visible bell: ''
-    title: zn5-rs0-d0
+    title: 00test
     use prepend command: ''
     use proxy: 0
     use sudo: ''
-    user: hosting
+    user: ''
     variables: []
+  999d7a85-aaf1-4017-b821-29af9c6f2a9d:
+    _is_group: 1
+    _protected: 0
+    children:
+      8d4f634d-d852-4c6f-9ee8-9dcf6d0412fb: 1
+      e59c4da5-c1b1-4b7d-bad1-56c27c0c8295: 1
+    description: Connection group 'rackspace'
+    name: Rackspace
+    parent: __PAC__ROOT__
+    screenshots: []
   9b03cbe5-596d-408c-803a-2132d543bfc9:
     KPX title regexp: .*vm-mirror_brt_sec.*
     _is_group: 0
@@ -6707,180 +2694,6 @@ environments:
     use sudo: ''
     user: administrador
     variables: []
-  9ce6392a-ca32-42f9-938c-5a829cae4b87:
-    KPX title regexp: ''
-    _is_group: 0
-    _protected: 0
-    auth fallback: 1
-    auth type: userpass
-    autoreconnect: ''
-    autossh: ''
-    children: {}
-    cluster: []
-    description: ''
-    embed: 0
-    expect: []
-    favourite: 0
-    infer from KPX where: 3
-    infer user pass from KPX: ''
-    ip: 10.10.1.16
-    local after: []
-    local before: []
-    local connected: []
-    mac: ''
-    macros: []
-    method: SSH
-    name: zn5-rs0-a
-    options: ' -X'
-    parent: 9430ef9e-1b40-4d77-8690-67b7accc1e90
-    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase user: ubuntu
-    port: 22
-    prepend command: ''
-    proxy ip: ''
-    proxy pass: ''
-    proxy port: 8080
-    proxy user: ''
-    public key: ''
-    quote command: ''
-    remove control chars: ''
-    save session logs: ''
-    screenshots: []
-    search pass on KPX: 0
-    send slow: 0
-    send string active: ''
-    send string every: 60
-    send string intro: 1
-    send string txt: ''
-    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
-    session logs amount: 10
-    session logs folder: /home/ptonini/.config/pac/session_logs
-    startup launch: ''
-    startup script: ''
-    startup script name: sample1.pl
-    terminal options:
-      audible bell: ''
-      back color: '#000000000000'
-      bold color: '#cc62cc62cc62'
-      bold color like text: 1
-      command prompt: '[#%\$>]|\:\/\s*$'
-      cursor shape: block
-      disable ALT key bindings: ''
-      disable CTRL key bindings: ''
-      disable SHIFT key bindings: ''
-      open in tab: 1
-      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
-      tab back color: '#000000000000'
-      terminal backspace: auto
-      terminal character encoding: UTF-8
-      terminal emulation: xterm
-      terminal font: Monospace 9
-      terminal scrollback lines: 5000
-      terminal select words: \.:_\/-A-Za-z0-9
-      terminal transparency: 0
-      terminal window hsize: 800
-      terminal window vsize: 600
-      text color: '#cc62cc62cc62'
-      timeout command: 40
-      timeout connect: 40
-      use personal settings: ''
-      use tab back color: ''
-      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
-      visible bell: ''
-    title: zn5-rs0-a
-    use prepend command: ''
-    use proxy: 0
-    use sudo: ''
-    user: hosting
-    variables: []
-  9f26de5e-75b8-418e-8a9d-2c44399370de:
-    KPX title regexp: ''
-    _is_group: 0
-    _protected: 0
-    auth fallback: 1
-    auth type: userpass
-    autoreconnect: ''
-    autossh: ''
-    children: {}
-    cluster: []
-    description: ''
-    embed: 0
-    expect: []
-    favourite: 0
-    infer from KPX where: 3
-    infer user pass from KPX: ''
-    ip: 10.10.1.25
-    local after: []
-    local before: []
-    local connected: []
-    mac: ''
-    macros: []
-    method: SSH
-    name: zn5-nginx0
-    options: ' -X'
-    parent: 9430ef9e-1b40-4d77-8690-67b7accc1e90
-    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase user: ubuntu
-    port: 22
-    prepend command: ''
-    proxy ip: ''
-    proxy pass: ''
-    proxy port: 8080
-    proxy user: ''
-    public key: ''
-    quote command: ''
-    remove control chars: ''
-    save session logs: ''
-    screenshots: []
-    search pass on KPX: 0
-    send slow: 0
-    send string active: ''
-    send string every: 60
-    send string intro: 1
-    send string txt: ''
-    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
-    session logs amount: 10
-    session logs folder: /home/ptonini/.config/pac/session_logs
-    startup launch: ''
-    startup script: ''
-    startup script name: sample1.pl
-    terminal options:
-      audible bell: ''
-      back color: '#000000000000'
-      bold color: '#cc62cc62cc62'
-      bold color like text: 1
-      command prompt: '[#%\$>]|\:\/\s*$'
-      cursor shape: block
-      disable ALT key bindings: ''
-      disable CTRL key bindings: ''
-      disable SHIFT key bindings: ''
-      open in tab: 1
-      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
-      tab back color: '#000000000000'
-      terminal backspace: auto
-      terminal character encoding: UTF-8
-      terminal emulation: xterm
-      terminal font: Monospace 9
-      terminal scrollback lines: 5000
-      terminal select words: \.:_\/-A-Za-z0-9
-      terminal transparency: 0
-      terminal window hsize: 800
-      terminal window vsize: 600
-      text color: '#cc62cc62cc62'
-      timeout command: 40
-      timeout connect: 40
-      use personal settings: ''
-      use tab back color: ''
-      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
-      visible bell: ''
-    title: zn5-nginx0
-    use prepend command: ''
-    use proxy: 0
-    use sudo: ''
-    user: hosting
-    variables: []
   __PAC_SHELL__:
     KPX title regexp: .*PACShell.*
     _protected: 0
@@ -6968,104 +2781,17 @@ environments:
     children:
       04a32142-fd55-4220-8d43-f43966a1ee1c: 1
       051a3f61-415e-4dc0-a7e5-7b8f9cdf47e0: 1
-      13d34e68-2420-498e-b276-1e7e6c48b676: 1
       17993a2d-682c-4fc2-a3a4-19c65db3f904: 1
+      3062954a-bd88-4e20-b561-5f2e0fa3cdb5: 1
       5e4aac1d-db9a-4188-9425-a37c1e2640e9: 1
+      66f59950-277e-4797-a91d-5f653cb4a094: 1
       999d7a85-aaf1-4017-b821-29af9c6f2a9d: 1
       bfdb38bb-d0f1-4fe7-a60e-530ee7494601: 1
-      c4edb639-374a-4f75-80b8-27963da75c8d: 1
     cluster: []
     expect: []
     pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
     passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
     screenshots: []
-    variables: []
-  a1334005-837e-4bc1-bbff-05a04d64b808:
-    KPX title regexp: ''
-    _is_group: 0
-    _protected: 0
-    auth fallback: 1
-    auth type: userpass
-    autoreconnect: ''
-    autossh: ''
-    children: {}
-    cluster: []
-    description: ''
-    embed: 0
-    expect: []
-    favourite: 0
-    infer from KPX where: 3
-    infer user pass from KPX: ''
-    ip: 10.10.1.78
-    local after: []
-    local before: []
-    local connected: []
-    mac: ''
-    macros: []
-    method: SSH
-    name: sso-osm-api0
-    options: ' -X'
-    parent: d6db3705-3345-41bb-b519-1d0e8cd3e6b6
-    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase user: ubuntu
-    port: 22
-    prepend command: ''
-    proxy ip: ''
-    proxy pass: ''
-    proxy port: 8080
-    proxy user: ''
-    public key: ''
-    quote command: ''
-    remove control chars: ''
-    save session logs: ''
-    screenshots: []
-    search pass on KPX: 0
-    send slow: 0
-    send string active: ''
-    send string every: 60
-    send string intro: 1
-    send string txt: ''
-    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
-    session logs amount: 10
-    session logs folder: /home/ptonini/.config/pac/session_logs
-    startup launch: ''
-    startup script: ''
-    startup script name: sample1.pl
-    terminal options:
-      audible bell: ''
-      back color: '#000000000000'
-      bold color: '#cc62cc62cc62'
-      bold color like text: 1
-      command prompt: '[#%\$>]|\:\/\s*$'
-      cursor shape: block
-      disable ALT key bindings: ''
-      disable CTRL key bindings: ''
-      disable SHIFT key bindings: ''
-      open in tab: 1
-      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
-      tab back color: '#000000000000'
-      terminal backspace: auto
-      terminal character encoding: UTF-8
-      terminal emulation: xterm
-      terminal font: Monospace 9
-      terminal scrollback lines: 5000
-      terminal select words: \.:_\/-A-Za-z0-9
-      terminal transparency: 0
-      terminal window hsize: 800
-      terminal window vsize: 600
-      text color: '#cc62cc62cc62'
-      timeout command: 40
-      timeout connect: 40
-      use personal settings: ''
-      use tab back color: ''
-      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
-      visible bell: ''
-    title: sso-osm-api0
-    use prepend command: ''
-    use proxy: 0
-    use sudo: ''
-    user: hosting
     variables: []
   a1448835-2026-4d2f-9b14-249454de3c4e:
     KPX title regexp: .*vm-zn1-gwa0.*
@@ -7154,354 +2880,6 @@ environments:
     use sudo: ''
     user: pedro.tonini
     variables: []
-  a30aed33-9c2f-49b4-ab37-98ae7748e47c:
-    KPX title regexp: ''
-    _is_group: 0
-    _protected: 0
-    auth fallback: 1
-    auth type: userpass
-    autoreconnect: ''
-    autossh: ''
-    children: {}
-    cluster: []
-    description: ''
-    embed: 0
-    expect: []
-    favourite: 0
-    infer from KPX where: 3
-    infer user pass from KPX: ''
-    ip: 10.10.1.56
-    local after: []
-    local before: []
-    local connected: []
-    mac: ''
-    macros: []
-    method: SSH
-    name: zn5-worker-s5
-    options: ' -X'
-    parent: 9430ef9e-1b40-4d77-8690-67b7accc1e90
-    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase user: ubuntu
-    port: 22
-    prepend command: ''
-    proxy ip: ''
-    proxy pass: ''
-    proxy port: 8080
-    proxy user: ''
-    public key: ''
-    quote command: ''
-    remove control chars: ''
-    save session logs: ''
-    screenshots: []
-    search pass on KPX: 0
-    send slow: 0
-    send string active: ''
-    send string every: 60
-    send string intro: 1
-    send string txt: ''
-    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
-    session logs amount: 10
-    session logs folder: /home/ptonini/.config/pac/session_logs
-    startup launch: ''
-    startup script: ''
-    startup script name: sample1.pl
-    terminal options:
-      audible bell: ''
-      back color: '#000000000000'
-      bold color: '#cc62cc62cc62'
-      bold color like text: 1
-      command prompt: '[#%\$>]|\:\/\s*$'
-      cursor shape: block
-      disable ALT key bindings: ''
-      disable CTRL key bindings: ''
-      disable SHIFT key bindings: ''
-      open in tab: 1
-      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
-      tab back color: '#000000000000'
-      terminal backspace: auto
-      terminal character encoding: UTF-8
-      terminal emulation: xterm
-      terminal font: Monospace 9
-      terminal scrollback lines: 5000
-      terminal select words: \.:_\/-A-Za-z0-9
-      terminal transparency: 0
-      terminal window hsize: 800
-      terminal window vsize: 600
-      text color: '#cc62cc62cc62'
-      timeout command: 40
-      timeout connect: 40
-      use personal settings: ''
-      use tab back color: ''
-      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
-      visible bell: ''
-    title: zn5-worker-s5
-    use prepend command: ''
-    use proxy: 0
-    use sudo: ''
-    user: hosting
-    variables: []
-  a4cd697e-21ed-4b6b-a626-1535841fb786:
-    KPX title regexp: ''
-    _is_group: 0
-    _protected: 0
-    auth fallback: 1
-    auth type: userpass
-    autoreconnect: ''
-    autossh: ''
-    children: {}
-    cluster: []
-    description: ''
-    embed: 0
-    expect: []
-    favourite: 0
-    infer from KPX where: 3
-    infer user pass from KPX: ''
-    ip: 10.10.1.65
-    local after: []
-    local before: []
-    local connected: []
-    mac: ''
-    macros: []
-    method: SSH
-    name: zn5-worker-rep
-    options: ' -X'
-    parent: 9430ef9e-1b40-4d77-8690-67b7accc1e90
-    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase user: ubuntu
-    port: 22
-    prepend command: ''
-    proxy ip: ''
-    proxy pass: ''
-    proxy port: 8080
-    proxy user: ''
-    public key: ''
-    quote command: ''
-    remove control chars: ''
-    save session logs: ''
-    screenshots: []
-    search pass on KPX: 0
-    send slow: 0
-    send string active: ''
-    send string every: 60
-    send string intro: 1
-    send string txt: ''
-    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
-    session logs amount: 10
-    session logs folder: /home/ptonini/.config/pac/session_logs
-    startup launch: ''
-    startup script: ''
-    startup script name: sample1.pl
-    terminal options:
-      audible bell: ''
-      back color: '#000000000000'
-      bold color: '#cc62cc62cc62'
-      bold color like text: 1
-      command prompt: '[#%\$>]|\:\/\s*$'
-      cursor shape: block
-      disable ALT key bindings: ''
-      disable CTRL key bindings: ''
-      disable SHIFT key bindings: ''
-      open in tab: 1
-      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
-      tab back color: '#000000000000'
-      terminal backspace: auto
-      terminal character encoding: UTF-8
-      terminal emulation: xterm
-      terminal font: Monospace 9
-      terminal scrollback lines: 5000
-      terminal select words: \.:_\/-A-Za-z0-9
-      terminal transparency: 0
-      terminal window hsize: 800
-      terminal window vsize: 600
-      text color: '#cc62cc62cc62'
-      timeout command: 40
-      timeout connect: 40
-      use personal settings: ''
-      use tab back color: ''
-      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
-      visible bell: ''
-    title: zn5-worker-rep
-    use prepend command: ''
-    use proxy: 0
-    use sudo: ''
-    user: hosting
-    variables: []
-  a570346d-b931-4d00-8500-bbb68b22245c:
-    KPX title regexp: ''
-    _is_group: 0
-    _protected: 0
-    auth fallback: 1
-    auth type: userpass
-    autoreconnect: ''
-    autossh: ''
-    children: {}
-    cluster: []
-    description: ''
-    embed: 0
-    expect: []
-    favourite: 0
-    infer from KPX where: 3
-    infer user pass from KPX: ''
-    ip: 10.10.1.80
-    local after: []
-    local before: []
-    local connected: []
-    mac: ''
-    macros: []
-    method: SSH
-    name: sso-osm-d1
-    options: ' -X'
-    parent: d6db3705-3345-41bb-b519-1d0e8cd3e6b6
-    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase user: ubuntu
-    port: 22
-    prepend command: ''
-    proxy ip: ''
-    proxy pass: ''
-    proxy port: 8080
-    proxy user: ''
-    public key: ''
-    quote command: ''
-    remove control chars: ''
-    save session logs: ''
-    screenshots: []
-    search pass on KPX: 0
-    send slow: 0
-    send string active: ''
-    send string every: 60
-    send string intro: 1
-    send string txt: ''
-    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
-    session logs amount: 10
-    session logs folder: /home/ptonini/.config/pac/session_logs
-    startup launch: ''
-    startup script: ''
-    startup script name: sample1.pl
-    terminal options:
-      audible bell: ''
-      back color: '#000000000000'
-      bold color: '#cc62cc62cc62'
-      bold color like text: 1
-      command prompt: '[#%\$>]|\:\/\s*$'
-      cursor shape: block
-      disable ALT key bindings: ''
-      disable CTRL key bindings: ''
-      disable SHIFT key bindings: ''
-      open in tab: 1
-      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
-      tab back color: '#000000000000'
-      terminal backspace: auto
-      terminal character encoding: UTF-8
-      terminal emulation: xterm
-      terminal font: Monospace 9
-      terminal scrollback lines: 5000
-      terminal select words: \.:_\/-A-Za-z0-9
-      terminal transparency: 0
-      terminal window hsize: 800
-      terminal window vsize: 600
-      text color: '#cc62cc62cc62'
-      timeout command: 40
-      timeout connect: 40
-      use personal settings: ''
-      use tab back color: ''
-      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
-      visible bell: ''
-    title: sso-osm-d1
-    use prepend command: ''
-    use proxy: 0
-    use sudo: ''
-    user: hosting
-    variables: []
-  a62e822a-26b5-47a3-a808-c28554f33565:
-    KPX title regexp: ''
-    _is_group: 0
-    _protected: 0
-    auth fallback: 1
-    auth type: userpass
-    autoreconnect: ''
-    autossh: ''
-    children: {}
-    cluster: []
-    description: ''
-    embed: 0
-    expect: []
-    favourite: 0
-    infer from KPX where: 3
-    infer user pass from KPX: ''
-    ip: 10.10.1.43
-    local after: []
-    local before: []
-    local connected: []
-    mac: ''
-    macros: []
-    method: SSH
-    name: zn5-gwa3
-    options: ' -X'
-    parent: 9430ef9e-1b40-4d77-8690-67b7accc1e90
-    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase user: ubuntu
-    port: 22
-    prepend command: ''
-    proxy ip: ''
-    proxy pass: ''
-    proxy port: 8080
-    proxy user: ''
-    public key: ''
-    quote command: ''
-    remove control chars: ''
-    save session logs: ''
-    screenshots: []
-    search pass on KPX: 0
-    send slow: 0
-    send string active: ''
-    send string every: 60
-    send string intro: 1
-    send string txt: ''
-    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
-    session logs amount: 10
-    session logs folder: /home/ptonini/.config/pac/session_logs
-    startup launch: ''
-    startup script: ''
-    startup script name: sample1.pl
-    terminal options:
-      audible bell: ''
-      back color: '#000000000000'
-      bold color: '#cc62cc62cc62'
-      bold color like text: 1
-      command prompt: '[#%\$>]|\:\/\s*$'
-      cursor shape: block
-      disable ALT key bindings: ''
-      disable CTRL key bindings: ''
-      disable SHIFT key bindings: ''
-      open in tab: 1
-      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
-      tab back color: '#000000000000'
-      terminal backspace: auto
-      terminal character encoding: UTF-8
-      terminal emulation: xterm
-      terminal font: Monospace 9
-      terminal scrollback lines: 5000
-      terminal select words: \.:_\/-A-Za-z0-9
-      terminal transparency: 0
-      terminal window hsize: 800
-      terminal window vsize: 600
-      text color: '#cc62cc62cc62'
-      timeout command: 40
-      timeout connect: 40
-      use personal settings: ''
-      use tab back color: ''
-      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
-      visible bell: ''
-    title: zn5-gwa3
-    use prepend command: ''
-    use proxy: 0
-    use sudo: ''
-    user: hosting
-    variables: []
   aca1f0ed-5188-4f5f-b332-232887f19b21:
     KPX title regexp: .*cloudstack.*
     _is_group: 0
@@ -7588,42 +2966,41 @@ environments:
     use sudo: ''
     user: administrador
     variables: []
-  ae36bedd-32f9-40df-9b8b-59cfb713be92:
-    KPX title regexp: ''
+  adc4d72e-32e6-447a-98ef-ebecb7d6616e:
+    KPX title regexp: .*nagios.*
     _is_group: 0
     _protected: 0
     auth fallback: 1
     auth type: userpass
     autoreconnect: ''
     autossh: ''
-    children: {}
     cluster: []
-    description: ''
+    description: Connection with 'nagios'
     embed: 0
     expect: []
     favourite: 0
     infer from KPX where: 3
     infer user pass from KPX: ''
-    ip: 10.10.2.75
+    ip: 10.0.0.45
     local after: []
     local before: []
     local connected: []
     mac: ''
     macros: []
     method: SSH
-    name: zn4-api1
+    name: nagios
     options: ' -X'
-    parent: f1f6cd4e-1e12-451c-871c-fa746b03bfc4
-    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
+    parent: 66f59950-277e-4797-a91d-5f653cb4a094
+    pass: 53616c7465645f5f3132333435363738b473832a3cb8ca394f2521b0948af7fd
     passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase user: ubuntu
+    passphrase user: ''
     port: 22
     prepend command: ''
     proxy ip: ''
     proxy pass: ''
     proxy port: 8080
     proxy user: ''
-    public key: ''
+    public key: /usr/share/pac
     quote command: ''
     remove control chars: ''
     save session logs: ''
@@ -7669,98 +3046,11 @@ environments:
       use tab back color: ''
       username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
       visible bell: ''
-    title: zn4-api1
+    title: nagios
     use prepend command: ''
     use proxy: 0
     use sudo: ''
-    user: hosting
-    variables: []
-  b1329627-e4b9-4c09-94d7-ac9485860f18:
-    KPX title regexp: ''
-    _is_group: 0
-    _protected: 0
-    auth fallback: 1
-    auth type: userpass
-    autoreconnect: ''
-    autossh: ''
-    children: {}
-    cluster: []
-    description: ''
-    embed: 0
-    expect: []
-    favourite: 0
-    infer from KPX where: 3
-    infer user pass from KPX: ''
-    ip: 10.10.1.33
-    local after: []
-    local before: []
-    local connected: []
-    mac: ''
-    macros: []
-    method: SSH
-    name: zn5-gwa1
-    options: ' -X'
-    parent: 9430ef9e-1b40-4d77-8690-67b7accc1e90
-    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase user: ubuntu
-    port: 22
-    prepend command: ''
-    proxy ip: ''
-    proxy pass: ''
-    proxy port: 8080
-    proxy user: ''
-    public key: ''
-    quote command: ''
-    remove control chars: ''
-    save session logs: ''
-    screenshots: []
-    search pass on KPX: 0
-    send slow: 0
-    send string active: ''
-    send string every: 60
-    send string intro: 1
-    send string txt: ''
-    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
-    session logs amount: 10
-    session logs folder: /home/ptonini/.config/pac/session_logs
-    startup launch: ''
-    startup script: ''
-    startup script name: sample1.pl
-    terminal options:
-      audible bell: ''
-      back color: '#000000000000'
-      bold color: '#cc62cc62cc62'
-      bold color like text: 1
-      command prompt: '[#%\$>]|\:\/\s*$'
-      cursor shape: block
-      disable ALT key bindings: ''
-      disable CTRL key bindings: ''
-      disable SHIFT key bindings: ''
-      open in tab: 1
-      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
-      tab back color: '#000000000000'
-      terminal backspace: auto
-      terminal character encoding: UTF-8
-      terminal emulation: xterm
-      terminal font: Monospace 9
-      terminal scrollback lines: 5000
-      terminal select words: \.:_\/-A-Za-z0-9
-      terminal transparency: 0
-      terminal window hsize: 800
-      terminal window vsize: 600
-      text color: '#cc62cc62cc62'
-      timeout command: 40
-      timeout connect: 40
-      use personal settings: ''
-      use tab back color: ''
-      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
-      visible bell: ''
-    title: zn5-gwa1
-    use prepend command: ''
-    use proxy: 0
-    use sudo: ''
-    user: hosting
+    user: administrador
     variables: []
   b259f16a-7454-47ef-9a8e-82c3a936b25e:
     KPX title regexp: .*vm-mirror_brt_sec.*
@@ -7849,354 +3139,6 @@ environments:
     use sudo: ''
     user: pedro.tonini
     variables: []
-  b3cc8fbc-3c1f-459d-add9-452af2ef726a:
-    KPX title regexp: ''
-    _is_group: 0
-    _protected: 0
-    auth fallback: 1
-    auth type: userpass
-    autoreconnect: ''
-    autossh: ''
-    children: {}
-    cluster: []
-    description: ''
-    embed: 0
-    expect: []
-    favourite: 0
-    infer from KPX where: 3
-    infer user pass from KPX: ''
-    ip: 10.10.2.27
-    local after: []
-    local before: []
-    local connected: []
-    mac: ''
-    macros: []
-    method: SSH
-    name: zn4-websocket0
-    options: ' -X'
-    parent: f1f6cd4e-1e12-451c-871c-fa746b03bfc4
-    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase user: ubuntu
-    port: 22
-    prepend command: ''
-    proxy ip: ''
-    proxy pass: ''
-    proxy port: 8080
-    proxy user: ''
-    public key: ''
-    quote command: ''
-    remove control chars: ''
-    save session logs: ''
-    screenshots: []
-    search pass on KPX: 0
-    send slow: 0
-    send string active: ''
-    send string every: 60
-    send string intro: 1
-    send string txt: ''
-    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
-    session logs amount: 10
-    session logs folder: /home/ptonini/.config/pac/session_logs
-    startup launch: ''
-    startup script: ''
-    startup script name: sample1.pl
-    terminal options:
-      audible bell: ''
-      back color: '#000000000000'
-      bold color: '#cc62cc62cc62'
-      bold color like text: 1
-      command prompt: '[#%\$>]|\:\/\s*$'
-      cursor shape: block
-      disable ALT key bindings: ''
-      disable CTRL key bindings: ''
-      disable SHIFT key bindings: ''
-      open in tab: 1
-      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
-      tab back color: '#000000000000'
-      terminal backspace: auto
-      terminal character encoding: UTF-8
-      terminal emulation: xterm
-      terminal font: Monospace 9
-      terminal scrollback lines: 5000
-      terminal select words: \.:_\/-A-Za-z0-9
-      terminal transparency: 0
-      terminal window hsize: 800
-      terminal window vsize: 600
-      text color: '#cc62cc62cc62'
-      timeout command: 40
-      timeout connect: 40
-      use personal settings: ''
-      use tab back color: ''
-      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
-      visible bell: ''
-    title: zn4-websocket0
-    use prepend command: ''
-    use proxy: 0
-    use sudo: ''
-    user: hosting
-    variables: []
-  b3ea2d74-8c75-45aa-9cfb-036b64dccf0d:
-    KPX title regexp: ''
-    _is_group: 0
-    _protected: 0
-    auth fallback: 1
-    auth type: userpass
-    autoreconnect: ''
-    autossh: ''
-    children: {}
-    cluster: []
-    description: ''
-    embed: 0
-    expect: []
-    favourite: 0
-    infer from KPX where: 3
-    infer user pass from KPX: ''
-    ip: 10.10.1.38
-    local after: []
-    local before: []
-    local connected: []
-    mac: ''
-    macros: []
-    method: SSH
-    name: zn5-gwa2
-    options: ' -X'
-    parent: 9430ef9e-1b40-4d77-8690-67b7accc1e90
-    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase user: ubuntu
-    port: 22
-    prepend command: ''
-    proxy ip: ''
-    proxy pass: ''
-    proxy port: 8080
-    proxy user: ''
-    public key: ''
-    quote command: ''
-    remove control chars: ''
-    save session logs: ''
-    screenshots: []
-    search pass on KPX: 0
-    send slow: 0
-    send string active: ''
-    send string every: 60
-    send string intro: 1
-    send string txt: ''
-    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
-    session logs amount: 10
-    session logs folder: /home/ptonini/.config/pac/session_logs
-    startup launch: ''
-    startup script: ''
-    startup script name: sample1.pl
-    terminal options:
-      audible bell: ''
-      back color: '#000000000000'
-      bold color: '#cc62cc62cc62'
-      bold color like text: 1
-      command prompt: '[#%\$>]|\:\/\s*$'
-      cursor shape: block
-      disable ALT key bindings: ''
-      disable CTRL key bindings: ''
-      disable SHIFT key bindings: ''
-      open in tab: 1
-      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
-      tab back color: '#000000000000'
-      terminal backspace: auto
-      terminal character encoding: UTF-8
-      terminal emulation: xterm
-      terminal font: Monospace 9
-      terminal scrollback lines: 5000
-      terminal select words: \.:_\/-A-Za-z0-9
-      terminal transparency: 0
-      terminal window hsize: 800
-      terminal window vsize: 600
-      text color: '#cc62cc62cc62'
-      timeout command: 40
-      timeout connect: 40
-      use personal settings: ''
-      use tab back color: ''
-      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
-      visible bell: ''
-    title: zn5-gwa2
-    use prepend command: ''
-    use proxy: 0
-    use sudo: ''
-    user: hosting
-    variables: []
-  b774f1f3-9d29-4f24-a640-d5b080d04fc5:
-    KPX title regexp: ''
-    _is_group: 0
-    _protected: 0
-    auth fallback: 1
-    auth type: userpass
-    autoreconnect: ''
-    autossh: ''
-    children: {}
-    cluster: []
-    description: ''
-    embed: 0
-    expect: []
-    favourite: 0
-    infer from KPX where: 3
-    infer user pass from KPX: ''
-    ip: 10.10.1.53
-    local after: []
-    local before: []
-    local connected: []
-    mac: ''
-    macros: []
-    method: SSH
-    name: zn5-gwa5
-    options: ' -X'
-    parent: 9430ef9e-1b40-4d77-8690-67b7accc1e90
-    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase user: ubuntu
-    port: 22
-    prepend command: ''
-    proxy ip: ''
-    proxy pass: ''
-    proxy port: 8080
-    proxy user: ''
-    public key: ''
-    quote command: ''
-    remove control chars: ''
-    save session logs: ''
-    screenshots: []
-    search pass on KPX: 0
-    send slow: 0
-    send string active: ''
-    send string every: 60
-    send string intro: 1
-    send string txt: ''
-    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
-    session logs amount: 10
-    session logs folder: /home/ptonini/.config/pac/session_logs
-    startup launch: ''
-    startup script: ''
-    startup script name: sample1.pl
-    terminal options:
-      audible bell: ''
-      back color: '#000000000000'
-      bold color: '#cc62cc62cc62'
-      bold color like text: 1
-      command prompt: '[#%\$>]|\:\/\s*$'
-      cursor shape: block
-      disable ALT key bindings: ''
-      disable CTRL key bindings: ''
-      disable SHIFT key bindings: ''
-      open in tab: 1
-      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
-      tab back color: '#000000000000'
-      terminal backspace: auto
-      terminal character encoding: UTF-8
-      terminal emulation: xterm
-      terminal font: Monospace 9
-      terminal scrollback lines: 5000
-      terminal select words: \.:_\/-A-Za-z0-9
-      terminal transparency: 0
-      terminal window hsize: 800
-      terminal window vsize: 600
-      text color: '#cc62cc62cc62'
-      timeout command: 40
-      timeout connect: 40
-      use personal settings: ''
-      use tab back color: ''
-      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
-      visible bell: ''
-    title: zn5-gwa5
-    use prepend command: ''
-    use proxy: 0
-    use sudo: ''
-    user: hosting
-    variables: []
-  b77a8402-4fe4-410e-9c2b-521267d99471:
-    KPX title regexp: ''
-    _is_group: 0
-    _protected: 0
-    auth fallback: 1
-    auth type: userpass
-    autoreconnect: ''
-    autossh: ''
-    children: {}
-    cluster: []
-    description: ''
-    embed: 0
-    expect: []
-    favourite: 0
-    infer from KPX where: 3
-    infer user pass from KPX: ''
-    ip: 10.10.2.36
-    local after: []
-    local before: []
-    local connected: []
-    mac: ''
-    macros: []
-    method: SSH
-    name: zn4-worker-s6
-    options: ' -X'
-    parent: f1f6cd4e-1e12-451c-871c-fa746b03bfc4
-    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase user: ubuntu
-    port: 22
-    prepend command: ''
-    proxy ip: ''
-    proxy pass: ''
-    proxy port: 8080
-    proxy user: ''
-    public key: ''
-    quote command: ''
-    remove control chars: ''
-    save session logs: ''
-    screenshots: []
-    search pass on KPX: 0
-    send slow: 0
-    send string active: ''
-    send string every: 60
-    send string intro: 1
-    send string txt: ''
-    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
-    session logs amount: 10
-    session logs folder: /home/ptonini/.config/pac/session_logs
-    startup launch: ''
-    startup script: ''
-    startup script name: sample1.pl
-    terminal options:
-      audible bell: ''
-      back color: '#000000000000'
-      bold color: '#cc62cc62cc62'
-      bold color like text: 1
-      command prompt: '[#%\$>]|\:\/\s*$'
-      cursor shape: block
-      disable ALT key bindings: ''
-      disable CTRL key bindings: ''
-      disable SHIFT key bindings: ''
-      open in tab: 1
-      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
-      tab back color: '#000000000000'
-      terminal backspace: auto
-      terminal character encoding: UTF-8
-      terminal emulation: xterm
-      terminal font: Monospace 9
-      terminal scrollback lines: 5000
-      terminal select words: \.:_\/-A-Za-z0-9
-      terminal transparency: 0
-      terminal window hsize: 800
-      terminal window vsize: 600
-      text color: '#cc62cc62cc62'
-      timeout command: 40
-      timeout connect: 40
-      use personal settings: ''
-      use tab back color: ''
-      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
-      visible bell: ''
-    title: zn4-worker-s6
-    use prepend command: ''
-    use proxy: 0
-    use sudo: ''
-    user: hosting
-    variables: []
   bbe04d94-885b-43bc-9fe3-bebd294f4818:
     KPX title regexp: .*vm-mirror_brt_sec.*
     _is_group: 0
@@ -8284,93 +3226,6 @@ environments:
     use sudo: ''
     user: pedro.tonini
     variables: []
-  bea5e0ea-f58a-4b3c-afa6-9e076610396c:
-    KPX title regexp: ''
-    _is_group: 0
-    _protected: 0
-    auth fallback: 1
-    auth type: userpass
-    autoreconnect: ''
-    autossh: ''
-    children: {}
-    cluster: []
-    description: ''
-    embed: 0
-    expect: []
-    favourite: 0
-    infer from KPX where: 3
-    infer user pass from KPX: ''
-    ip: 10.10.1.23
-    local after: []
-    local before: []
-    local connected: []
-    mac: ''
-    macros: []
-    method: SSH
-    name: zn5-rs2-d0
-    options: ' -X'
-    parent: 9430ef9e-1b40-4d77-8690-67b7accc1e90
-    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase user: ubuntu
-    port: 22
-    prepend command: ''
-    proxy ip: ''
-    proxy pass: ''
-    proxy port: 8080
-    proxy user: ''
-    public key: ''
-    quote command: ''
-    remove control chars: ''
-    save session logs: ''
-    screenshots: []
-    search pass on KPX: 0
-    send slow: 0
-    send string active: ''
-    send string every: 60
-    send string intro: 1
-    send string txt: ''
-    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
-    session logs amount: 10
-    session logs folder: /home/ptonini/.config/pac/session_logs
-    startup launch: ''
-    startup script: ''
-    startup script name: sample1.pl
-    terminal options:
-      audible bell: ''
-      back color: '#000000000000'
-      bold color: '#cc62cc62cc62'
-      bold color like text: 1
-      command prompt: '[#%\$>]|\:\/\s*$'
-      cursor shape: block
-      disable ALT key bindings: ''
-      disable CTRL key bindings: ''
-      disable SHIFT key bindings: ''
-      open in tab: 1
-      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
-      tab back color: '#000000000000'
-      terminal backspace: auto
-      terminal character encoding: UTF-8
-      terminal emulation: xterm
-      terminal font: Monospace 9
-      terminal scrollback lines: 5000
-      terminal select words: \.:_\/-A-Za-z0-9
-      terminal transparency: 0
-      terminal window hsize: 800
-      terminal window vsize: 600
-      text color: '#cc62cc62cc62'
-      timeout command: 40
-      timeout connect: 40
-      use personal settings: ''
-      use tab back color: ''
-      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
-      visible bell: ''
-    title: zn5-rs2-d0
-    use prepend command: ''
-    use proxy: 0
-    use sudo: ''
-    user: hosting
-    variables: []
   bfdb38bb-d0f1-4fe7-a60e-530ee7494601:
     _is_group: 1
     _protected: 0
@@ -8386,102 +3241,6 @@ environments:
     name: Dualtec
     parent: __PAC__ROOT__
     screenshots: []
-  c4edb639-374a-4f75-80b8-27963da75c8d:
-    _is_group: 1
-    _protected: 0
-    children:
-      61cd9540-ea02-498e-b8a0-d87cfd98fe7a: 1
-    description: "Connection group 'AWS - M2M'"
-    name: 'AWS - M2M'
-    parent: __PAC__ROOT__
-    screenshots: []
-  c625659d-6ec4-45f5-93ca-9d90d415f923:
-    KPX title regexp: ''
-    _is_group: 0
-    _protected: 0
-    auth fallback: 1
-    auth type: userpass
-    autoreconnect: ''
-    autossh: ''
-    children: {}
-    cluster: []
-    description: ''
-    embed: 0
-    expect: []
-    favourite: 0
-    infer from KPX where: 3
-    infer user pass from KPX: ''
-    ip: 10.10.1.210
-    local after: []
-    local before: []
-    local connected: []
-    mac: ''
-    macros: []
-    method: SSH
-    name: zn5-gwa-temp
-    options: ' -X'
-    parent: 9430ef9e-1b40-4d77-8690-67b7accc1e90
-    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase user: ubuntu
-    port: 22
-    prepend command: ''
-    proxy ip: ''
-    proxy pass: ''
-    proxy port: 8080
-    proxy user: ''
-    public key: ''
-    quote command: ''
-    remove control chars: ''
-    save session logs: ''
-    screenshots: []
-    search pass on KPX: 0
-    send slow: 0
-    send string active: ''
-    send string every: 60
-    send string intro: 1
-    send string txt: ''
-    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
-    session logs amount: 10
-    session logs folder: /home/ptonini/.config/pac/session_logs
-    startup launch: ''
-    startup script: ''
-    startup script name: sample1.pl
-    terminal options:
-      audible bell: ''
-      back color: '#000000000000'
-      bold color: '#cc62cc62cc62'
-      bold color like text: 1
-      command prompt: '[#%\$>]|\:\/\s*$'
-      cursor shape: block
-      disable ALT key bindings: ''
-      disable CTRL key bindings: ''
-      disable SHIFT key bindings: ''
-      open in tab: 1
-      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
-      tab back color: '#000000000000'
-      terminal backspace: auto
-      terminal character encoding: UTF-8
-      terminal emulation: xterm
-      terminal font: Monospace 9
-      terminal scrollback lines: 5000
-      terminal select words: \.:_\/-A-Za-z0-9
-      terminal transparency: 0
-      terminal window hsize: 800
-      terminal window vsize: 600
-      text color: '#cc62cc62cc62'
-      timeout command: 40
-      timeout connect: 40
-      use personal settings: ''
-      use tab back color: ''
-      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
-      visible bell: ''
-    title: zn5-gwa-temp
-    use prepend command: ''
-    use proxy: 0
-    use sudo: ''
-    user: hosting
-    variables: []
   d17a53fd-bd9d-4b29-be24-266c4dadab95:
     KPX title regexp: .*vm-zn1-gwa0.*
     _is_group: 0
@@ -8569,8 +3328,8 @@ environments:
     use sudo: ''
     user: m2m-bkp
     variables: []
-  d2ebbd2d-0956-4825-8e84-b780b4bd89f1:
-    KPX title regexp: .*vm-mirror_brt_sec.*
+  d8918c73-3501-4d2f-a079-d0e3067ae706:
+    KPX title regexp: .*temp1.*
     _is_group: 0
     _protected: 0
     auth fallback: 1
@@ -8579,119 +3338,32 @@ environments:
     autossh: ''
     children: {}
     cluster: []
-    description: Connection with 'vm-mirror4_sec'
-    embed: 1
-    expect: []
-    favourite: 0
-    infer from KPX where: 3
-    infer user pass from KPX: ''
-    ip: 10.10.1.100
-    local after: []
-    local before: []
-    local connected: []
-    mac: ''
-    macros: []
-    method: RDP (rdesktop)
-    name: entrada
-    options: ' -5 -a 24 -r sound:local -r clipboard:PRIMARYCLIPBOARD -d m2m.cloud'
-    parent: 04a32142-fd55-4220-8d43-f43966a1ee1c
-    pass: 53616c7465645f5f31323334353637382d71aa51d75623a7
-    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase user: ''
-    port: 3389
-    prepend command: ''
-    proxy ip: ''
-    proxy pass: ''
-    proxy port: 8080
-    proxy user: ''
-    public key: ''
-    quote command: ''
-    remove control chars: ''
-    save session logs: ''
-    screenshots: []
-    search pass on KPX: 0
-    send slow: 0
-    send string active: ''
-    send string every: 60
-    send string intro: 1
-    send string txt: ''
-    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
-    session logs amount: 10
-    session logs folder: /home/ptonini/.config/pac/session_logs
-    startup launch: ''
-    startup script: ''
-    startup script name: sample1.pl
-    terminal options:
-      audible bell: ''
-      back color: '#000000000000'
-      bold color: '#cc62cc62cc62'
-      bold color like text: 1
-      command prompt: '[#%\$>]|\:\/\s*$'
-      cursor shape: block
-      disable ALT key bindings: ''
-      disable CTRL key bindings: ''
-      disable SHIFT key bindings: ''
-      open in tab: 1
-      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
-      tab back color: '#000000000000'
-      terminal backspace: auto
-      terminal character encoding: UTF-8
-      terminal emulation: xterm
-      terminal font: Monospace 9
-      terminal scrollback lines: 5000
-      terminal select words: \.:_\/-A-Za-z0-9
-      terminal transparency: 0
-      terminal window hsize: 800
-      terminal window vsize: 600
-      text color: '#cc62cc62cc62'
-      timeout command: 40
-      timeout connect: 40
-      use personal settings: ''
-      use tab back color: ''
-      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
-      visible bell: ''
-    title: entrada
-    use prepend command: ''
-    use proxy: 0
-    use sudo: ''
-    user: pedro.tonini
-    variables: []
-  d3b660cc-f72b-486a-ad07-6f1092863fe1:
-    KPX title regexp: ''
-    _is_group: 0
-    _protected: 0
-    auth fallback: 1
-    auth type: userpass
-    autoreconnect: ''
-    autossh: ''
-    children: {}
-    cluster: []
-    description: ''
+    description: Connection with 'temp2'
     embed: 0
     expect: []
     favourite: 0
     infer from KPX where: 3
     infer user pass from KPX: ''
-    ip: 10.10.2.231
+    ip: bbb
     local after: []
     local before: []
     local connected: []
     mac: ''
     macros: []
     method: SSH
-    name: zn4-api2
-    options: ' -X -L 8888:10.10.1.11:15672'
-    parent: f1f6cd4e-1e12-451c-871c-fa746b03bfc4
+    name: temp3
+    options: ' -X'
+    parent: 125f03d9-e4e0-4ab7-9128-3d5de0b144ff
     pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
     passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase user: ubuntu
+    passphrase user: ''
     port: 22
     prepend command: ''
     proxy ip: ''
     proxy pass: ''
     proxy port: 8080
     proxy user: ''
-    public key: ''
+    public key: /usr/share/pac
     quote command: ''
     remove control chars: ''
     save session logs: ''
@@ -8737,26 +3409,12 @@ environments:
       use tab back color: ''
       username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
       visible bell: ''
-    title: zn4-api2
+    title: temp3
     use prepend command: ''
     use proxy: 0
     use sudo: ''
-    user: hosting
+    user: bbb
     variables: []
-  d6db3705-3345-41bb-b519-1d0e8cd3e6b6:
-    _is_group: 1
-    _protected: 0
-    children:
-      42f36498-b5a0-4762-9eef-711ef8c968a9: 1
-      73b9dd05-377c-4a9e-9a3d-abc5beca650a: 1
-      75752dd6-79e2-4581-8758-51e7da00c28a: 1
-      a1334005-837e-4bc1-bbff-05a04d64b808: 1
-      a570346d-b931-4d00-8500-bbb68b22245c: 1
-      eec89a0d-f1af-4a8e-86a4-2347ca1e0084: 1
-    description: Connection group 'SSO'
-    name: SSO
-    parent: 04a32142-fd55-4220-8d43-f43966a1ee1c
-    screenshots: []
   da34ac25-10d2-4a6f-afa9-9da4a8ea2ee4:
     KPX title regexp: .*vm-zn1-gwa0.*
     _is_group: 0
@@ -8844,8 +3502,8 @@ environments:
     use sudo: ''
     user: pedro.tonini
     variables: []
-  ddb6ee3b-cde8-43bd-8226-14bb4727f0c2:
-    KPX title regexp: ''
+  dd9b17bf-4a2c-4e19-a7c6-61b5a7908388:
+    KPX title regexp: .*temp1.*
     _is_group: 0
     _protected: 0
     auth fallback: 1
@@ -8854,32 +3512,32 @@ environments:
     autossh: ''
     children: {}
     cluster: []
-    description: ''
+    description: Connection with 'temp2'
     embed: 0
     expect: []
     favourite: 0
     infer from KPX where: 3
     infer user pass from KPX: ''
-    ip: 10.10.1.27
+    ip: bbb
     local after: []
     local before: []
     local connected: []
     mac: ''
     macros: []
     method: SSH
-    name: zn5-websocket0
+    name: temp5
     options: ' -X'
-    parent: 9430ef9e-1b40-4d77-8690-67b7accc1e90
+    parent: f21e906f-62f7-4e55-b88c-6244238716d8
     pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
     passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase user: ubuntu
+    passphrase user: ''
     port: 22
     prepend command: ''
     proxy ip: ''
     proxy pass: ''
     proxy port: 8080
     proxy user: ''
-    public key: ''
+    public key: /usr/share/pac
     quote command: ''
     remove control chars: ''
     save session logs: ''
@@ -8925,11 +3583,11 @@ environments:
       use tab back color: ''
       username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
       visible bell: ''
-    title: zn5-websocket0
+    title: temp5
     use prepend command: ''
     use proxy: 0
     use sudo: ''
-    user: hosting
+    user: bbb
     variables: []
   e0551254-8b01-44d9-a779-d5d92646a3d5:
     KPX title regexp: .*vm-mirror_brt_sec.*
@@ -9017,180 +3675,6 @@ environments:
     use proxy: 0
     use sudo: ''
     user: administrador
-    variables: []
-  e217ef7c-c2bb-4c16-b773-bbb4b082f319:
-    KPX title regexp: ''
-    _is_group: 0
-    _protected: 0
-    auth fallback: 1
-    auth type: userpass
-    autoreconnect: ''
-    autossh: ''
-    children: {}
-    cluster: []
-    description: ''
-    embed: 0
-    expect: []
-    favourite: 0
-    infer from KPX where: 3
-    infer user pass from KPX: ''
-    ip: 10.10.1.24
-    local after: []
-    local before: []
-    local connected: []
-    mac: ''
-    macros: []
-    method: SSH
-    name: zn5-rs2-d1
-    options: ' -X'
-    parent: 9430ef9e-1b40-4d77-8690-67b7accc1e90
-    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase user: ubuntu
-    port: 22
-    prepend command: ''
-    proxy ip: ''
-    proxy pass: ''
-    proxy port: 8080
-    proxy user: ''
-    public key: ''
-    quote command: ''
-    remove control chars: ''
-    save session logs: ''
-    screenshots: []
-    search pass on KPX: 0
-    send slow: 0
-    send string active: ''
-    send string every: 60
-    send string intro: 1
-    send string txt: ''
-    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
-    session logs amount: 10
-    session logs folder: /home/ptonini/.config/pac/session_logs
-    startup launch: ''
-    startup script: ''
-    startup script name: sample1.pl
-    terminal options:
-      audible bell: ''
-      back color: '#000000000000'
-      bold color: '#cc62cc62cc62'
-      bold color like text: 1
-      command prompt: '[#%\$>]|\:\/\s*$'
-      cursor shape: block
-      disable ALT key bindings: ''
-      disable CTRL key bindings: ''
-      disable SHIFT key bindings: ''
-      open in tab: 1
-      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
-      tab back color: '#000000000000'
-      terminal backspace: auto
-      terminal character encoding: UTF-8
-      terminal emulation: xterm
-      terminal font: Monospace 9
-      terminal scrollback lines: 5000
-      terminal select words: \.:_\/-A-Za-z0-9
-      terminal transparency: 0
-      terminal window hsize: 800
-      terminal window vsize: 600
-      text color: '#cc62cc62cc62'
-      timeout command: 40
-      timeout connect: 40
-      use personal settings: ''
-      use tab back color: ''
-      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
-      visible bell: ''
-    title: zn5-rs2-d1
-    use prepend command: ''
-    use proxy: 0
-    use sudo: ''
-    user: hosting
-    variables: []
-  e23dc4a4-6653-448b-af06-3bfe3019cf9c:
-    KPX title regexp: ''
-    _is_group: 0
-    _protected: 0
-    auth fallback: 1
-    auth type: userpass
-    autoreconnect: ''
-    autossh: ''
-    children: {}
-    cluster: []
-    description: ''
-    embed: 0
-    expect: []
-    favourite: 0
-    infer from KPX where: 3
-    infer user pass from KPX: ''
-    ip: 10.10.2.26
-    local after: []
-    local before: []
-    local connected: []
-    mac: ''
-    macros: []
-    method: SSH
-    name: zn4-api0
-    options: ' -X'
-    parent: f1f6cd4e-1e12-451c-871c-fa746b03bfc4
-    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase user: ubuntu
-    port: 22
-    prepend command: ''
-    proxy ip: ''
-    proxy pass: ''
-    proxy port: 8080
-    proxy user: ''
-    public key: ''
-    quote command: ''
-    remove control chars: ''
-    save session logs: ''
-    screenshots: []
-    search pass on KPX: 0
-    send slow: 0
-    send string active: ''
-    send string every: 60
-    send string intro: 1
-    send string txt: ''
-    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
-    session logs amount: 10
-    session logs folder: /home/ptonini/.config/pac/session_logs
-    startup launch: ''
-    startup script: ''
-    startup script name: sample1.pl
-    terminal options:
-      audible bell: ''
-      back color: '#000000000000'
-      bold color: '#cc62cc62cc62'
-      bold color like text: 1
-      command prompt: '[#%\$>]|\:\/\s*$'
-      cursor shape: block
-      disable ALT key bindings: ''
-      disable CTRL key bindings: ''
-      disable SHIFT key bindings: ''
-      open in tab: 1
-      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
-      tab back color: '#000000000000'
-      terminal backspace: auto
-      terminal character encoding: UTF-8
-      terminal emulation: xterm
-      terminal font: Monospace 9
-      terminal scrollback lines: 5000
-      terminal select words: \.:_\/-A-Za-z0-9
-      terminal transparency: 0
-      terminal window hsize: 800
-      terminal window vsize: 600
-      text color: '#cc62cc62cc62'
-      timeout command: 40
-      timeout connect: 40
-      use personal settings: ''
-      use tab back color: ''
-      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
-      visible bell: ''
-    title: zn4-api0
-    use prepend command: ''
-    use proxy: 0
-    use sudo: ''
-    user: hosting
     variables: []
   e49eaffc-23f6-4b28-923f-41d3507bea77:
     KPX title regexp: .*usloft2539.*
@@ -9453,214 +3937,105 @@ environments:
     use sudo: ''
     user: root
     variables: []
-  ed020d0d-7c96-4223-bee8-ec01641d7c3d:
-    KPX title regexp: ''
-    _is_group: 0
-    _protected: 0
-    auth fallback: 1
-    auth type: userpass
-    autoreconnect: ''
-    autossh: ''
-    children: {}
-    cluster: []
-    description: ''
-    embed: 0
-    expect: []
-    favourite: 0
-    infer from KPX where: 3
-    infer user pass from KPX: ''
-    ip: 10.10.1.20
-    local after: []
-    local before: []
-    local connected: []
-    mac: ''
-    macros: []
-    method: SSH
-    name: zn5-rs1-d0
-    options: ' -X'
-    parent: 9430ef9e-1b40-4d77-8690-67b7accc1e90
-    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase user: ubuntu
-    port: 22
-    prepend command: ''
-    proxy ip: ''
-    proxy pass: ''
-    proxy port: 8080
-    proxy user: ''
-    public key: ''
-    quote command: ''
-    remove control chars: ''
-    save session logs: ''
-    screenshots: []
-    search pass on KPX: 0
-    send slow: 0
-    send string active: ''
-    send string every: 60
-    send string intro: 1
-    send string txt: ''
-    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
-    session logs amount: 10
-    session logs folder: /home/ptonini/.config/pac/session_logs
-    startup launch: ''
-    startup script: ''
-    startup script name: sample1.pl
-    terminal options:
-      audible bell: ''
-      back color: '#000000000000'
-      bold color: '#cc62cc62cc62'
-      bold color like text: 1
-      command prompt: '[#%\$>]|\:\/\s*$'
-      cursor shape: block
-      disable ALT key bindings: ''
-      disable CTRL key bindings: ''
-      disable SHIFT key bindings: ''
-      open in tab: 1
-      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
-      tab back color: '#000000000000'
-      terminal backspace: auto
-      terminal character encoding: UTF-8
-      terminal emulation: xterm
-      terminal font: Monospace 9
-      terminal scrollback lines: 5000
-      terminal select words: \.:_\/-A-Za-z0-9
-      terminal transparency: 0
-      terminal window hsize: 800
-      terminal window vsize: 600
-      text color: '#cc62cc62cc62'
-      timeout command: 40
-      timeout connect: 40
-      use personal settings: ''
-      use tab back color: ''
-      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
-      visible bell: ''
-    title: zn5-rs1-d0
-    use prepend command: ''
-    use proxy: 0
-    use sudo: ''
-    user: hosting
-    variables: []
-  eec89a0d-f1af-4a8e-86a4-2347ca1e0084:
-    KPX title regexp: ''
-    _is_group: 0
-    _protected: 0
-    auth fallback: 1
-    auth type: userpass
-    autoreconnect: ''
-    autossh: ''
-    children: {}
-    cluster: []
-    description: ''
-    embed: 0
-    expect: []
-    favourite: 0
-    infer from KPX where: 3
-    infer user pass from KPX: ''
-    ip: 10.10.1.30
-    local after: []
-    local before: []
-    local connected: []
-    mac: ''
-    macros: []
-    method: SSH
-    name: sso-nginx0
-    options: ' -X'
-    parent: d6db3705-3345-41bb-b519-1d0e8cd3e6b6
-    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
-    passphrase user: ubuntu
-    port: 22
-    prepend command: ''
-    proxy ip: ''
-    proxy pass: ''
-    proxy port: 8080
-    proxy user: ''
-    public key: ''
-    quote command: ''
-    remove control chars: ''
-    save session logs: ''
-    screenshots: []
-    search pass on KPX: 0
-    send slow: 0
-    send string active: ''
-    send string every: 60
-    send string intro: 1
-    send string txt: ''
-    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
-    session logs amount: 10
-    session logs folder: /home/ptonini/.config/pac/session_logs
-    startup launch: ''
-    startup script: ''
-    startup script name: sample1.pl
-    terminal options:
-      audible bell: ''
-      back color: '#000000000000'
-      bold color: '#cc62cc62cc62'
-      bold color like text: 1
-      command prompt: '[#%\$>]|\:\/\s*$'
-      cursor shape: block
-      disable ALT key bindings: ''
-      disable CTRL key bindings: ''
-      disable SHIFT key bindings: ''
-      open in tab: 1
-      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
-      tab back color: '#000000000000'
-      terminal backspace: auto
-      terminal character encoding: UTF-8
-      terminal emulation: xterm
-      terminal font: Monospace 9
-      terminal scrollback lines: 5000
-      terminal select words: \.:_\/-A-Za-z0-9
-      terminal transparency: 0
-      terminal window hsize: 800
-      terminal window vsize: 600
-      text color: '#cc62cc62cc62'
-      timeout command: 40
-      timeout connect: 40
-      use personal settings: ''
-      use tab back color: ''
-      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
-      visible bell: ''
-    title: sso-nginx0
-    use prepend command: ''
-    use proxy: 0
-    use sudo: ''
-    user: hosting
-    variables: []
-  f1f6cd4e-1e12-451c-871c-fa746b03bfc4:
+  f21e906f-62f7-4e55-b88c-6244238716d8:
     _is_group: 1
     _protected: 0
     children:
-      0c9dc660-ffb8-4f02-824c-7434e2abb478: 1
-      130eb48c-c6e2-4389-8afd-03b272b42e80: 1
-      18c6cac0-6f14-4953-88c8-df113e227eeb: 1
-      2902d424-994a-47fe-97ed-8eae6c9e79b2: 1
-      29ad8b43-b937-4ac4-9e86-0771b9c6c91e: 1
-      2d19af08-bce7-4ef3-b0b2-8136fdd13230: 1
-      326521f5-1d7c-4bff-b832-919b6b7a55c6: 1
-      38172486-eb10-485f-910f-61fa07d2a803: 1
-      3e34261a-b9e1-4f14-b516-e4635d178861: 1
-      47b95e20-9f34-4701-af3f-6136a3e8b99d: 1
-      4801c876-cddd-4591-b44a-106b60c7aefa: 1
-      49dd3b93-32f3-4c1b-ad73-fc6896b36e8f: 1
-      6dfd962d-79da-41ab-9948-08a47db9c50d: 1
-      73b131a8-19e9-4c7f-a69c-0ce7aec46934: 1
-      73c9973c-78c7-46c5-bb0d-070529f17c66: 1
-      742a0649-14cc-437c-a37c-e9a75dd06edf: 1
-      8c333249-d670-4431-9925-72346b6cec3e: 1
-      ae36bedd-32f9-40df-9b8b-59cfb713be92: 1
-      b3cc8fbc-3c1f-459d-add9-452af2ef726a: 1
-      b77a8402-4fe4-410e-9c2b-521267d99471: 1
-      d3b660cc-f72b-486a-ad07-6f1092863fe1: 1
-      e23dc4a4-6653-448b-af06-3bfe3019cf9c: 1
-    description: Connection group 'Zona 4'
-    name: Zona 4
-    parent: 04a32142-fd55-4220-8d43-f43966a1ee1c
+      dd9b17bf-4a2c-4e19-a7c6-61b5a7908388: 1
+    description: Connection group 'Zona H'
+    name: Zona H
+    parent: 3062954a-bd88-4e20-b561-5f2e0fa3cdb5
     screenshots: []
+  f254b822-1858-47c9-8488-6f09d7e9ede8:
+    KPX title regexp: .*temp1.*
+    _is_group: 0
+    _protected: 0
+    auth fallback: 1
+    auth type: userpass
+    autoreconnect: ''
+    autossh: ''
+    cluster: []
+    description: Connection with 'temp1'
+    embed: 0
+    expect: []
+    favourite: 0
+    infer from KPX where: 3
+    infer user pass from KPX: ''
+    ip: bbb
+    local after: []
+    local before: []
+    local connected: []
+    mac: ''
+    macros: []
+    method: SSH
+    name: temp1
+    options: ' -X'
+    parent: 64f7eeae-6cdc-40ee-b569-fd66e160167f
+    pass: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
+    passphrase: 53616c7465645f5f3132333435363738a9fd581c1ddfc1c2
+    passphrase user: ''
+    port: 22
+    prepend command: ''
+    proxy ip: ''
+    proxy pass: ''
+    proxy port: 8080
+    proxy user: ''
+    public key: /usr/share/pac
+    quote command: ''
+    remove control chars: ''
+    save session logs: ''
+    screenshots: []
+    search pass on KPX: 0
+    send slow: 0
+    send string active: ''
+    send string every: 60
+    send string intro: 1
+    send string txt: ''
+    session log pattern: <UUID>_<NAME>_<DATE_Y><DATE_M><DATE_D>_<TIME_H><TIME_M><TIME_S>.txt
+    session logs amount: 10
+    session logs folder: /home/ptonini/.config/pac/session_logs
+    startup launch: ''
+    startup script: ''
+    startup script name: sample1.pl
+    terminal options:
+      audible bell: ''
+      back color: '#000000000000'
+      bold color: '#cc62cc62cc62'
+      bold color like text: 1
+      command prompt: '[#%\$>]|\:\/\s*$'
+      cursor shape: block
+      disable ALT key bindings: ''
+      disable CTRL key bindings: ''
+      disable SHIFT key bindings: ''
+      open in tab: 1
+      password prompt: "([p|P]ass|[p|P]ass[w|W]or[d|t]|ontrase.a|Enter passphrase for key '.+'):\\s*$"
+      tab back color: '#000000000000'
+      terminal backspace: auto
+      terminal character encoding: UTF-8
+      terminal emulation: xterm
+      terminal font: Monospace 9
+      terminal scrollback lines: 5000
+      terminal select words: \.:_\/-A-Za-z0-9
+      terminal transparency: 0
+      terminal window hsize: 800
+      terminal window vsize: 600
+      text color: '#cc62cc62cc62'
+      timeout command: 40
+      timeout connect: 40
+      use personal settings: ''
+      use tab back color: ''
+      username prompt: '([l|L]ogin|[u|u]suario|[u|U]ser-?[n|N]ame|[u|U]ser):\s*$'
+      visible bell: ''
+    title: temp1
+    use prepend command: ''
+    use proxy: 0
+    use sudo: ''
+    user: bbb
+    variables: []
 tmp:
   changed: 0
-  log file: /home/ptonini/.config/pac/tmp/pac_PID31367_n2.txt
-  socket: /home/ptonini/.config/pac/sockets/pac_PID31367_n2.socket
-  socket exec: /home/ptonini/.config/pac/sockets/pac_PID31367_n2.exec.socket
+  log file: /home/ptonini/.config/pac/tmp/pac_PID6816_n10.txt
+  socket: /home/ptonini/.config/pac/sockets/pac_PID6816_n10.socket
+  socket exec: /home/ptonini/.config/pac/sockets/pac_PID6816_n10.exec.socket
   tray available: ''
-  uuid: pac_PID31367_n2
+  uuid: pac_PID6816_n10

@@ -1,8 +1,11 @@
-from ruamel import yaml
 import uuid
 import collections
-from yaml.representer import Representer
+import copy
+import fileinput
+import csv
 
+from yaml.representer import Representer
+from ruamel import yaml
 
 import pprint
 
@@ -60,85 +63,84 @@ class PacConfigEditor:
 
     def clone_node(self, source_node_name, options):
 
-        # for source_node_id in self.get_nodes_by_name(source_node_name)[0]:
+        source_node = self.get_node_by_id(self.get_nodes_by_name(source_node_name)[0])
 
-            source_node = self.get_node_by_id(self.get_nodes_by_name(source_node_name)[0])
+        new_node_id = str(uuid.uuid4())
 
-            new_node_id = str(uuid.uuid4())
+        self.doc['environments'][new_node_id] = copy.deepcopy(source_node)
 
-            print new_node_id
+        self.doc['environments'][source_node['parent']]['children'][new_node_id] = 1
 
-            # print source_node
+        for key, value in options.iteritems():
+            self.doc['environments'][new_node_id][key] = value
 
-            self.doc['environments'][new_node_id] = dict()
+    def bulk_clone(self, source_node_name, csv_file, options):
 
-            for key, value in source_node.iteritems():
+        with open(csv_file, 'r') as f:
+            reader = csv.reader(f)
+            host_list = list(reader)
 
-                if isinstance(value, yaml.comments.CommentedSeq):
+        for line in host_list:
 
-                    print key, value
+            host_options = copy.copy(options)
+            host_options['name'] = line[0]
+            host_options['title'] = line[0]
+            host_options['ip'] = line[1]
 
-                    self.doc['environments'][new_node_id][key] = yaml.comments.CommentedSeq()
+            if len(self.get_nodes_by_name(line[0])) == 0:
 
-                    for v1 in value:
-                        self.doc['environments'][new_node_id][key].append(v1)
-
-                if isinstance(value, yaml.comments.CommentedMap):
-
-                    self.doc['environments'][new_node_id][key] = yaml.comments.CommentedMap()
-
-                    for k1, v1 in value.iteritems():
-                        self.doc['environments'][new_node_id][key][k1] = v1
-
-                else:
-                    self.doc['environments'][new_node_id][key] = value
-
-            for key, value in options.iteritems():
-                self.doc['environments'][new_node_id][key] = value
+                self.clone_node(source_node_name, host_options)
 
     def dump_yaml(self, yaml_file):
+
+        corrections = [
+            ['^.+ontinue connecting \((.+)\/(.+)\)\?\s*$', "'^.+ontinue connecting \((.+)\/(.+)\)\?\s*$'"]
+        ]
 
         stream = file(yaml_file, 'w')
 
         yaml.dump(self.doc, stream, explicit_start=True, Dumper=yaml.RoundTripDumper, width=9999)
+
+        for line in fileinput.input(yaml_file, inplace=True):
+            for c in corrections:
+                line = line.rstrip().replace(c[0], c[1])
+            print line
 
 
 def main():
 
     pac_config = PacConfigEditor('./pac.yml')
 
+    default_options = {
+        'auth type': 'publickey',
+        'user': '',
+        'pass': '',
+        #'public key': '/home/ptonini/.ssh/m2m-hosting',
+        'public key': '/opt/ssh_keys/m2m-hosting',
+        'passphrase user': 'hosting',
+        'passphrase': '',
+        'auth fallback': 0,
+        'KPX title regexp': '',
+        'options': '',
+        'description': ''
+    }
+
     if False:
 
-        options = {
-            'user': 'hosting',
-            'KPX title regexp': '',
-            'description': '',
-            'pass': '',
-            'passphrase': '',
-            'passphrase user': '',
-            'auth type': 'userpass',
-            'public key': '',
-            'auth fallback': 1,
-            'options': ''
-        }
-
-        groups = ['SSO', 'Zona 4', 'Zona 5']
+        groups = ['SSO', 'Zona 4', 'Zona 5', 'Zona D', 'Zona H']
 
         for group in groups:
-            pac_config.update_node_children(group, options)
+            pac_config.update_node_children(group, default_options)
 
     if True:
 
-        options = {
-            'name': '00_test',
-            'title': '00test'
-        }
+        pac_config.bulk_clone('temp1', './sso.csv', default_options)
+        pac_config.bulk_clone('temp2', './zn4.csv', default_options)
+        pac_config.bulk_clone('temp3', './zn5.csv', default_options)
+        pac_config.bulk_clone('temp4', './znh.csv', default_options)
+        pac_config.bulk_clone('temp5', './znd.csv', default_options)
 
-        pac_config.clone_node('zn4-api0', options)
-
-    pac_config.dump_yaml('/home/ptonini/.config/pac/pac.yml')
-
-
+    pac_config.dump_yaml('./pac_new.yml')
 
 
 if __name__ == "__main__":
